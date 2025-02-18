@@ -61,6 +61,18 @@ build CMakeFiles/Ejercicios_de_pogramacion.dir/Ejercicio2.cpp.obj: CXX_COMPILER_
   OBJECT_DIR = CMakeFiles\Ejercicios_de_pogramacion.dir
   OBJECT_FILE_DIR = CMakeFiles\Ejercicios_de_pogramacion.dir
 
+build CMakeFiles/Ejercicios_de_pogramacion.dir/NumeroMayor.cpp.obj: CXX_COMPILER__Ejercicios_de_pogramacion_unscanned_Debug C$:/Users/mrtom/CLionProjects/Ejercicios$ de$ pogramacion/NumeroMayor.cpp || cmake_object_order_depends_target_Ejercicios_de_pogramacion
+  DEP_FILE = CMakeFiles\Ejercicios_de_pogramacion.dir\NumeroMayor.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Ejercicios_de_pogramacion.dir
+  OBJECT_FILE_DIR = CMakeFiles\Ejercicios_de_pogramacion.dir
+
+build CMakeFiles/Ejercicios_de_pogramacion.dir/YEAR.cpp.obj: CXX_COMPILER__Ejercicios_de_pogramacion_unscanned_Debug C$:/Users/mrtom/CLionProjects/Ejercicios$ de$ pogramacion/YEAR.cpp || cmake_object_order_depends_target_Ejercicios_de_pogramacion
+  DEP_FILE = CMakeFiles\Ejercicios_de_pogramacion.dir\YEAR.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Ejercicios_de_pogramacion.dir
+  OBJECT_FILE_DIR = CMakeFiles\Ejercicios_de_pogramacion.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target Ejercicios_de_pogramacion
@@ -69,7 +81,7 @@ build CMakeFiles/Ejercicios_de_pogramacion.dir/Ejercicio2.cpp.obj: CXX_COMPILER_
 #############################################
 # Link the executable Ejercicios_de_pogramacion.exe
 
-build Ejercicios_de_pogramacion.exe: CXX_EXECUTABLE_LINKER__Ejercicios_de_pogramacion_Debug CMakeFiles/Ejercicios_de_pogramacion.dir/main.cpp.obj CMakeFiles/Ejercicios_de_pogramacion.dir/Ejercicio2.cpp.obj
+build Ejercicios_de_pogramacion.exe: CXX_EXECUTABLE_LINKER__Ejercicios_de_pogramacion_Debug CMakeFiles/Ejercicios_de_pogramacion.dir/main.cpp.obj CMakeFiles/Ejercicios_de_pogramacion.dir/Ejercicio2.cpp.obj CMakeFiles/Ejercicios_de_pogramacion.dir/NumeroMayor.cpp.obj CMakeFiles/Ejercicios_de_pogramacion.dir/YEAR.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\Ejercicios_de_pogramacion.dir
@@ -145,6 +157,72 @@ build main.cpp.exe: CXX_EXECUTABLE_LINKER__main.2ecpp_Debug CMakeFiles/main.cpp.
   TARGET_IMPLIB = libmain.cpp.dll.a
   TARGET_PDB = main.cpp.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target NumeroMayor
+
+
+#############################################
+# Order-only phony target for NumeroMayor
+
+build cmake_object_order_depends_target_NumeroMayor: phony || .
+
+build CMakeFiles/NumeroMayor.dir/NumeroMayor.cpp.obj: CXX_COMPILER__NumeroMayor_unscanned_Debug C$:/Users/mrtom/CLionProjects/Ejercicios$ de$ pogramacion/NumeroMayor.cpp || cmake_object_order_depends_target_NumeroMayor
+  DEP_FILE = CMakeFiles\NumeroMayor.dir\NumeroMayor.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\NumeroMayor.dir
+  OBJECT_FILE_DIR = CMakeFiles\NumeroMayor.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target NumeroMayor
+
+
+#############################################
+# Link the executable NumeroMayor.exe
+
+build NumeroMayor.exe: CXX_EXECUTABLE_LINKER__NumeroMayor_Debug CMakeFiles/NumeroMayor.dir/NumeroMayor.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\NumeroMayor.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = NumeroMayor.exe
+  TARGET_IMPLIB = libNumeroMayor.dll.a
+  TARGET_PDB = NumeroMayor.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target YEAR
+
+
+#############################################
+# Order-only phony target for YEAR
+
+build cmake_object_order_depends_target_YEAR: phony || .
+
+build CMakeFiles/YEAR.dir/YEAR.cpp.obj: CXX_COMPILER__YEAR_unscanned_Debug C$:/Users/mrtom/CLionProjects/Ejercicios$ de$ pogramacion/YEAR.cpp || cmake_object_order_depends_target_YEAR
+  DEP_FILE = CMakeFiles\YEAR.dir\YEAR.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\YEAR.dir
+  OBJECT_FILE_DIR = CMakeFiles\YEAR.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target YEAR
+
+
+#############################################
+# Link the executable YEAR.exe
+
+build YEAR.exe: CXX_EXECUTABLE_LINKER__YEAR_Debug CMakeFiles/YEAR.dir/YEAR.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\YEAR.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = YEAR.exe
+  TARGET_IMPLIB = libYEAR.dll.a
+  TARGET_PDB = YEAR.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -175,6 +253,10 @@ build Ejercicio2: phony Ejercicio2.exe
 
 build Ejercicios_de_pogramacion: phony Ejercicios_de_pogramacion.exe
 
+build NumeroMayor: phony NumeroMayor.exe
+
+build YEAR: phony YEAR.exe
+
 build main.cpp: phony main.cpp.exe
 
 # =============================================================================
@@ -185,7 +267,7 @@ build main.cpp: phony main.cpp.exe
 #############################################
 # Folder: C:/Users/mrtom/CLionProjects/Ejercicios de pogramacion/cmake-build-debug
 
-build all: phony Ejercicios_de_pogramacion.exe Ejercicio2.exe main.cpp.exe
+build all: phony Ejercicios_de_pogramacion.exe Ejercicio2.exe main.cpp.exe NumeroMayor.exe YEAR.exe
 
 # =============================================================================
 # Built-in targets
