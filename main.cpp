@@ -14,7 +14,7 @@ int main(){
         cout<<"El numero negativo"<<endl;
         
     }else {
-        cout<<"El numero real"<<endl;
+        cout<<"El numero es cero"<<endl;
     }
     return 0;
 }
