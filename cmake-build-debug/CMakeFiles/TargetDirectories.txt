@@ -1,0 +1,3 @@
+C:/Users/mrtom/CLionProjects/Ejercicios de pogramacion/cmake-build-debug/CMakeFiles/Ejercicios_de_pogramacion.dir
+C:/Users/mrtom/CLionProjects/Ejercicios de pogramacion/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/mrtom/CLionProjects/Ejercicios de pogramacion/cmake-build-debug/CMakeFiles/rebuild_cache.dir
