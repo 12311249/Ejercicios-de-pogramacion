@@ -73,6 +73,12 @@ build CMakeFiles/Ejercicios_de_pogramacion.dir/YEAR.cpp.obj: CXX_COMPILER__Ejerc
   OBJECT_DIR = CMakeFiles\Ejercicios_de_pogramacion.dir
   OBJECT_FILE_DIR = CMakeFiles\Ejercicios_de_pogramacion.dir
 
+build CMakeFiles/Ejercicios_de_pogramacion.dir/VOCAL.cpp.obj: CXX_COMPILER__Ejercicios_de_pogramacion_unscanned_Debug C$:/Users/mrtom/CLionProjects/Ejercicios$ de$ pogramacion/VOCAL.cpp || cmake_object_order_depends_target_Ejercicios_de_pogramacion
+  DEP_FILE = CMakeFiles\Ejercicios_de_pogramacion.dir\VOCAL.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Ejercicios_de_pogramacion.dir
+  OBJECT_FILE_DIR = CMakeFiles\Ejercicios_de_pogramacion.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target Ejercicios_de_pogramacion
@@ -81,7 +87,7 @@ build CMakeFiles/Ejercicios_de_pogramacion.dir/YEAR.cpp.obj: CXX_COMPILER__Ejerc
 #############################################
 # Link the executable Ejercicios_de_pogramacion.exe
 
-build Ejercicios_de_pogramacion.exe: CXX_EXECUTABLE_LINKER__Ejercicios_de_pogramacion_Debug CMakeFiles/Ejercicios_de_pogramacion.dir/main.cpp.obj CMakeFiles/Ejercicios_de_pogramacion.dir/Ejercicio2.cpp.obj CMakeFiles/Ejercicios_de_pogramacion.dir/NumeroMayor.cpp.obj CMakeFiles/Ejercicios_de_pogramacion.dir/YEAR.cpp.obj
+build Ejercicios_de_pogramacion.exe: CXX_EXECUTABLE_LINKER__Ejercicios_de_pogramacion_Debug CMakeFiles/Ejercicios_de_pogramacion.dir/main.cpp.obj CMakeFiles/Ejercicios_de_pogramacion.dir/Ejercicio2.cpp.obj CMakeFiles/Ejercicios_de_pogramacion.dir/NumeroMayor.cpp.obj CMakeFiles/Ejercicios_de_pogramacion.dir/YEAR.cpp.obj CMakeFiles/Ejercicios_de_pogramacion.dir/VOCAL.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\Ejercicios_de_pogramacion.dir
@@ -223,6 +229,39 @@ build YEAR.exe: CXX_EXECUTABLE_LINKER__YEAR_Debug CMakeFiles/YEAR.dir/YEAR.cpp.o
   TARGET_IMPLIB = libYEAR.dll.a
   TARGET_PDB = YEAR.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target VOCAL
+
+
+#############################################
+# Order-only phony target for VOCAL
+
+build cmake_object_order_depends_target_VOCAL: phony || .
+
+build CMakeFiles/VOCAL.dir/VOCAL.cpp.obj: CXX_COMPILER__VOCAL_unscanned_Debug C$:/Users/mrtom/CLionProjects/Ejercicios$ de$ pogramacion/VOCAL.cpp || cmake_object_order_depends_target_VOCAL
+  DEP_FILE = CMakeFiles\VOCAL.dir\VOCAL.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\VOCAL.dir
+  OBJECT_FILE_DIR = CMakeFiles\VOCAL.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target VOCAL
+
+
+#############################################
+# Link the executable VOCAL.exe
+
+build VOCAL.exe: CXX_EXECUTABLE_LINKER__VOCAL_Debug CMakeFiles/VOCAL.dir/VOCAL.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\VOCAL.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = VOCAL.exe
+  TARGET_IMPLIB = libVOCAL.dll.a
+  TARGET_PDB = VOCAL.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -255,6 +294,8 @@ build Ejercicios_de_pogramacion: phony Ejercicios_de_pogramacion.exe
 
 build NumeroMayor: phony NumeroMayor.exe
 
+build VOCAL: phony VOCAL.exe
+
 build YEAR: phony YEAR.exe
 
 build main.cpp: phony main.cpp.exe
@@ -267,7 +308,7 @@ build main.cpp: phony main.cpp.exe
 #############################################
 # Folder: C:/Users/mrtom/CLionProjects/Ejercicios de pogramacion/cmake-build-debug
 
-build all: phony Ejercicios_de_pogramacion.exe Ejercicio2.exe main.cpp.exe NumeroMayor.exe YEAR.exe
+build all: phony Ejercicios_de_pogramacion.exe Ejercicio2.exe main.cpp.exe NumeroMayor.exe YEAR.exe VOCAL.exe
 
 # =============================================================================
 # Built-in targets
