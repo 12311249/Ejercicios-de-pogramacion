@@ -79,6 +79,12 @@ build CMakeFiles/Ejercicios_de_pogramacion.dir/VOCAL.cpp.obj: CXX_COMPILER__Ejer
   OBJECT_DIR = CMakeFiles\Ejercicios_de_pogramacion.dir
   OBJECT_FILE_DIR = CMakeFiles\Ejercicios_de_pogramacion.dir
 
+build CMakeFiles/Ejercicios_de_pogramacion.dir/PRIMO.cpp.obj: CXX_COMPILER__Ejercicios_de_pogramacion_unscanned_Debug C$:/Users/mrtom/CLionProjects/Ejercicios$ de$ pogramacion/PRIMO.cpp || cmake_object_order_depends_target_Ejercicios_de_pogramacion
+  DEP_FILE = CMakeFiles\Ejercicios_de_pogramacion.dir\PRIMO.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Ejercicios_de_pogramacion.dir
+  OBJECT_FILE_DIR = CMakeFiles\Ejercicios_de_pogramacion.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target Ejercicios_de_pogramacion
@@ -87,7 +93,7 @@ build CMakeFiles/Ejercicios_de_pogramacion.dir/VOCAL.cpp.obj: CXX_COMPILER__Ejer
 #############################################
 # Link the executable Ejercicios_de_pogramacion.exe
 
-build Ejercicios_de_pogramacion.exe: CXX_EXECUTABLE_LINKER__Ejercicios_de_pogramacion_Debug CMakeFiles/Ejercicios_de_pogramacion.dir/main.cpp.obj CMakeFiles/Ejercicios_de_pogramacion.dir/Ejercicio2.cpp.obj CMakeFiles/Ejercicios_de_pogramacion.dir/NumeroMayor.cpp.obj CMakeFiles/Ejercicios_de_pogramacion.dir/YEAR.cpp.obj CMakeFiles/Ejercicios_de_pogramacion.dir/VOCAL.cpp.obj
+build Ejercicios_de_pogramacion.exe: CXX_EXECUTABLE_LINKER__Ejercicios_de_pogramacion_Debug CMakeFiles/Ejercicios_de_pogramacion.dir/main.cpp.obj CMakeFiles/Ejercicios_de_pogramacion.dir/Ejercicio2.cpp.obj CMakeFiles/Ejercicios_de_pogramacion.dir/NumeroMayor.cpp.obj CMakeFiles/Ejercicios_de_pogramacion.dir/YEAR.cpp.obj CMakeFiles/Ejercicios_de_pogramacion.dir/VOCAL.cpp.obj CMakeFiles/Ejercicios_de_pogramacion.dir/PRIMO.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\Ejercicios_de_pogramacion.dir
@@ -262,6 +268,39 @@ build VOCAL.exe: CXX_EXECUTABLE_LINKER__VOCAL_Debug CMakeFiles/VOCAL.dir/VOCAL.c
   TARGET_IMPLIB = libVOCAL.dll.a
   TARGET_PDB = VOCAL.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target PRIMO
+
+
+#############################################
+# Order-only phony target for PRIMO
+
+build cmake_object_order_depends_target_PRIMO: phony || .
+
+build CMakeFiles/PRIMO.dir/PRIMO.cpp.obj: CXX_COMPILER__PRIMO_unscanned_Debug C$:/Users/mrtom/CLionProjects/Ejercicios$ de$ pogramacion/PRIMO.cpp || cmake_object_order_depends_target_PRIMO
+  DEP_FILE = CMakeFiles\PRIMO.dir\PRIMO.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\PRIMO.dir
+  OBJECT_FILE_DIR = CMakeFiles\PRIMO.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target PRIMO
+
+
+#############################################
+# Link the executable PRIMO.exe
+
+build PRIMO.exe: CXX_EXECUTABLE_LINKER__PRIMO_Debug CMakeFiles/PRIMO.dir/PRIMO.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\PRIMO.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = PRIMO.exe
+  TARGET_IMPLIB = libPRIMO.dll.a
+  TARGET_PDB = PRIMO.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -294,6 +333,8 @@ build Ejercicios_de_pogramacion: phony Ejercicios_de_pogramacion.exe
 
 build NumeroMayor: phony NumeroMayor.exe
 
+build PRIMO: phony PRIMO.exe
+
 build VOCAL: phony VOCAL.exe
 
 build YEAR: phony YEAR.exe
@@ -308,7 +349,7 @@ build main.cpp: phony main.cpp.exe
 #############################################
 # Folder: C:/Users/mrtom/CLionProjects/Ejercicios de pogramacion/cmake-build-debug
 
-build all: phony Ejercicios_de_pogramacion.exe Ejercicio2.exe main.cpp.exe NumeroMayor.exe YEAR.exe VOCAL.exe
+build all: phony Ejercicios_de_pogramacion.exe Ejercicio2.exe main.cpp.exe NumeroMayor.exe YEAR.exe VOCAL.exe PRIMO.exe
 
 # =============================================================================
 # Built-in targets
