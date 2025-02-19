@@ -22,7 +22,8 @@
 						4,
 						5,
 						6,
-						7
+						7,
+						8
 					]
 				}
 			],
@@ -44,7 +45,8 @@
 						4,
 						5,
 						6,
-						7
+						7,
+						8
 					]
 				}
 			],
@@ -53,56 +55,63 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "Ejercicio2::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-Ejercicio2-Debug-7ff2e3025b0a3d989a72.json",
+					"jsonFile" : "target-Ejercicio2-Debug-19c7eee25fc4011eea92.json",
 					"name" : "Ejercicio2",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "Ejercicios_de_pogramacion::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-Ejercicios_de_pogramacion-Debug-94fa3fc51f3034b59258.json",
+					"jsonFile" : "target-Ejercicios_de_pogramacion-Debug-d25ef455f0bdd8e9c0a6.json",
 					"name" : "Ejercicios_de_pogramacion",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
+					"id" : "MULTIPLOS::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-MULTIPLOS-Debug-4fe23c4512f20d28f7b4.json",
+					"name" : "MULTIPLOS",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
 					"id" : "NACIMIENTO::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-NACIMIENTO-Debug-d9672284644a111abf4b.json",
+					"jsonFile" : "target-NACIMIENTO-Debug-fbdeaa314448e2a2492d.json",
 					"name" : "NACIMIENTO",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "NumeroMayor::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-NumeroMayor-Debug-2cce3c619d3dca20514d.json",
+					"jsonFile" : "target-NumeroMayor-Debug-de000408f59bcfd205b9.json",
 					"name" : "NumeroMayor",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "PRIMO::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-PRIMO-Debug-72472aa1203399c33d5c.json",
+					"jsonFile" : "target-PRIMO-Debug-1f611f6e797f4bf079bf.json",
 					"name" : "PRIMO",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "VOCAL::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-VOCAL-Debug-be89b521508bd15332b5.json",
+					"jsonFile" : "target-VOCAL-Debug-4a32a9bccd8c13ba8ae4.json",
 					"name" : "VOCAL",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "YEAR::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-YEAR-Debug-d9b188f5dfd8b275dfb7.json",
+					"jsonFile" : "target-YEAR-Debug-9fb5e664c9358ac89792.json",
 					"name" : "YEAR",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "main.cpp::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-main.cpp-Debug-d1a40cc492dbdd87cf97.json",
+					"jsonFile" : "target-main.cpp-Debug-d9ec9baefef95a1dde79.json",
 					"name" : "main.cpp",
 					"projectIndex" : 0
 				}
