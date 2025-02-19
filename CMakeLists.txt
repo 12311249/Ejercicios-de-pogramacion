@@ -21,4 +21,5 @@ add_executable(VOCAL VOCAL.cpp)
 add_executable(PRIMO PRIMO.cpp)
 add_executable(NACIMIENTO NACIMIENTO.cpp)
 add_executable(MULTIPLOS MULTIPLOS.cpp)
+add_executable(NOTAS NOTAS.cpp)
 

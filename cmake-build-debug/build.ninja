@@ -385,6 +385,39 @@ build MULTIPLOS.exe: CXX_EXECUTABLE_LINKER__MULTIPLOS_Debug CMakeFiles/MULTIPLOS
   TARGET_IMPLIB = libMULTIPLOS.dll.a
   TARGET_PDB = MULTIPLOS.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target NOTAS
+
+
+#############################################
+# Order-only phony target for NOTAS
+
+build cmake_object_order_depends_target_NOTAS: phony || .
+
+build CMakeFiles/NOTAS.dir/NOTAS.cpp.obj: CXX_COMPILER__NOTAS_unscanned_Debug C$:/Users/mrtom/CLionProjects/Ejercicios$ de$ pogramacion/NOTAS.cpp || cmake_object_order_depends_target_NOTAS
+  DEP_FILE = CMakeFiles\NOTAS.dir\NOTAS.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\NOTAS.dir
+  OBJECT_FILE_DIR = CMakeFiles\NOTAS.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target NOTAS
+
+
+#############################################
+# Link the executable NOTAS.exe
+
+build NOTAS.exe: CXX_EXECUTABLE_LINKER__NOTAS_Debug CMakeFiles/NOTAS.dir/NOTAS.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\NOTAS.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = NOTAS.exe
+  TARGET_IMPLIB = libNOTAS.dll.a
+  TARGET_PDB = NOTAS.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -419,6 +452,8 @@ build MULTIPLOS: phony MULTIPLOS.exe
 
 build NACIMIENTO: phony NACIMIENTO.exe
 
+build NOTAS: phony NOTAS.exe
+
 build NumeroMayor: phony NumeroMayor.exe
 
 build PRIMO: phony PRIMO.exe
@@ -437,7 +472,7 @@ build main.cpp: phony main.cpp.exe
 #############################################
 # Folder: C:/Users/mrtom/CLionProjects/Ejercicios de pogramacion/cmake-build-debug
 
-build all: phony Ejercicios_de_pogramacion.exe Ejercicio2.exe main.cpp.exe NumeroMayor.exe YEAR.exe VOCAL.exe PRIMO.exe NACIMIENTO.exe MULTIPLOS.exe
+build all: phony Ejercicios_de_pogramacion.exe Ejercicio2.exe main.cpp.exe NumeroMayor.exe YEAR.exe VOCAL.exe PRIMO.exe NACIMIENTO.exe MULTIPLOS.exe NOTAS.exe
 
 # =============================================================================
 # Built-in targets
