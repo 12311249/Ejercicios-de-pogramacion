@@ -10,5 +10,6 @@ C:/Users/mrtom/CLionProjects/Ejercicios de pogramacion/cmake-build-debug/CMakeFi
 C:/Users/mrtom/CLionProjects/Ejercicios de pogramacion/cmake-build-debug/CMakeFiles/NOTAS.dir
 C:/Users/mrtom/CLionProjects/Ejercicios de pogramacion/cmake-build-debug/CMakeFiles/PRECIOS.dir
 C:/Users/mrtom/CLionProjects/Ejercicios de pogramacion/cmake-build-debug/CMakeFiles/ORDEN.dir
+C:/Users/mrtom/CLionProjects/Ejercicios de pogramacion/cmake-build-debug/CMakeFiles/While2.dir
 C:/Users/mrtom/CLionProjects/Ejercicios de pogramacion/cmake-build-debug/CMakeFiles/edit_cache.dir
 C:/Users/mrtom/CLionProjects/Ejercicios de pogramacion/cmake-build-debug/CMakeFiles/rebuild_cache.dir

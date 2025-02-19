@@ -115,6 +115,12 @@ build CMakeFiles/Ejercicios_de_pogramacion.dir/ORDEN.cpp.obj: CXX_COMPILER__Ejer
   OBJECT_DIR = CMakeFiles\Ejercicios_de_pogramacion.dir
   OBJECT_FILE_DIR = CMakeFiles\Ejercicios_de_pogramacion.dir
 
+build CMakeFiles/Ejercicios_de_pogramacion.dir/While2.cpp.obj: CXX_COMPILER__Ejercicios_de_pogramacion_unscanned_Debug C$:/Users/mrtom/CLionProjects/Ejercicios$ de$ pogramacion/While2.cpp || cmake_object_order_depends_target_Ejercicios_de_pogramacion
+  DEP_FILE = CMakeFiles\Ejercicios_de_pogramacion.dir\While2.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Ejercicios_de_pogramacion.dir
+  OBJECT_FILE_DIR = CMakeFiles\Ejercicios_de_pogramacion.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target Ejercicios_de_pogramacion
@@ -123,7 +129,7 @@ build CMakeFiles/Ejercicios_de_pogramacion.dir/ORDEN.cpp.obj: CXX_COMPILER__Ejer
 #############################################
 # Link the executable Ejercicios_de_pogramacion.exe
 
-build Ejercicios_de_pogramacion.exe: CXX_EXECUTABLE_LINKER__Ejercicios_de_pogramacion_Debug CMakeFiles/Ejercicios_de_pogramacion.dir/main.cpp.obj CMakeFiles/Ejercicios_de_pogramacion.dir/Ejercicio2.cpp.obj CMakeFiles/Ejercicios_de_pogramacion.dir/NumeroMayor.cpp.obj CMakeFiles/Ejercicios_de_pogramacion.dir/YEAR.cpp.obj CMakeFiles/Ejercicios_de_pogramacion.dir/VOCAL.cpp.obj CMakeFiles/Ejercicios_de_pogramacion.dir/PRIMO.cpp.obj CMakeFiles/Ejercicios_de_pogramacion.dir/NACIMIENTO.cpp.obj CMakeFiles/Ejercicios_de_pogramacion.dir/MULTIPLOS.cpp.obj CMakeFiles/Ejercicios_de_pogramacion.dir/NOTAS.cpp.obj CMakeFiles/Ejercicios_de_pogramacion.dir/PRECIOS.cpp.obj CMakeFiles/Ejercicios_de_pogramacion.dir/ORDEN.cpp.obj
+build Ejercicios_de_pogramacion.exe: CXX_EXECUTABLE_LINKER__Ejercicios_de_pogramacion_Debug CMakeFiles/Ejercicios_de_pogramacion.dir/main.cpp.obj CMakeFiles/Ejercicios_de_pogramacion.dir/Ejercicio2.cpp.obj CMakeFiles/Ejercicios_de_pogramacion.dir/NumeroMayor.cpp.obj CMakeFiles/Ejercicios_de_pogramacion.dir/YEAR.cpp.obj CMakeFiles/Ejercicios_de_pogramacion.dir/VOCAL.cpp.obj CMakeFiles/Ejercicios_de_pogramacion.dir/PRIMO.cpp.obj CMakeFiles/Ejercicios_de_pogramacion.dir/NACIMIENTO.cpp.obj CMakeFiles/Ejercicios_de_pogramacion.dir/MULTIPLOS.cpp.obj CMakeFiles/Ejercicios_de_pogramacion.dir/NOTAS.cpp.obj CMakeFiles/Ejercicios_de_pogramacion.dir/PRECIOS.cpp.obj CMakeFiles/Ejercicios_de_pogramacion.dir/ORDEN.cpp.obj CMakeFiles/Ejercicios_de_pogramacion.dir/While2.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\Ejercicios_de_pogramacion.dir
@@ -496,6 +502,39 @@ build ORDEN.exe: CXX_EXECUTABLE_LINKER__ORDEN_Debug CMakeFiles/ORDEN.dir/ORDEN.c
   TARGET_IMPLIB = libORDEN.dll.a
   TARGET_PDB = ORDEN.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target While2
+
+
+#############################################
+# Order-only phony target for While2
+
+build cmake_object_order_depends_target_While2: phony || .
+
+build CMakeFiles/While2.dir/While2.cpp.obj: CXX_COMPILER__While2_unscanned_Debug C$:/Users/mrtom/CLionProjects/Ejercicios$ de$ pogramacion/While2.cpp || cmake_object_order_depends_target_While2
+  DEP_FILE = CMakeFiles\While2.dir\While2.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\While2.dir
+  OBJECT_FILE_DIR = CMakeFiles\While2.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target While2
+
+
+#############################################
+# Link the executable While2.exe
+
+build While2.exe: CXX_EXECUTABLE_LINKER__While2_Debug CMakeFiles/While2.dir/While2.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\While2.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = While2.exe
+  TARGET_IMPLIB = libWhile2.dll.a
+  TARGET_PDB = While2.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -542,6 +581,8 @@ build PRIMO: phony PRIMO.exe
 
 build VOCAL: phony VOCAL.exe
 
+build While2: phony While2.exe
+
 build YEAR: phony YEAR.exe
 
 build main.cpp: phony main.cpp.exe
@@ -554,7 +595,7 @@ build main.cpp: phony main.cpp.exe
 #############################################
 # Folder: C:/Users/mrtom/CLionProjects/Ejercicios de pogramacion/cmake-build-debug
 
-build all: phony Ejercicios_de_pogramacion.exe Ejercicio2.exe main.cpp.exe NumeroMayor.exe YEAR.exe VOCAL.exe PRIMO.exe NACIMIENTO.exe MULTIPLOS.exe NOTAS.exe PRECIOS.exe ORDEN.exe
+build all: phony Ejercicios_de_pogramacion.exe Ejercicio2.exe main.cpp.exe NumeroMayor.exe YEAR.exe VOCAL.exe PRIMO.exe NACIMIENTO.exe MULTIPLOS.exe NOTAS.exe PRECIOS.exe ORDEN.exe While2.exe
 
 # =============================================================================
 # Built-in targets

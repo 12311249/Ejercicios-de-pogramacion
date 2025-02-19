@@ -14,6 +14,7 @@ add_executable(Ejercicios_de_pogramacion main.cpp
         NOTAS.cpp
         PRECIOS.cpp
         ORDEN.cpp
+        While2.cpp
 )
 add_executable(Ejercicio2 Ejercicio2.cpp)
 add_executable(main.cpp main.cpp)
@@ -26,4 +27,5 @@ add_executable(MULTIPLOS MULTIPLOS.cpp)
 add_executable(NOTAS NOTAS.cpp)
 add_executable(PRECIOS PRECIOS.cpp)
 add_executable(ORDEN ORDEN.cpp)
+add_executable(While2 While2.cpp)
 
