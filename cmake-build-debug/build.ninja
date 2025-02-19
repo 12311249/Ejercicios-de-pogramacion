@@ -85,6 +85,18 @@ build CMakeFiles/Ejercicios_de_pogramacion.dir/PRIMO.cpp.obj: CXX_COMPILER__Ejer
   OBJECT_DIR = CMakeFiles\Ejercicios_de_pogramacion.dir
   OBJECT_FILE_DIR = CMakeFiles\Ejercicios_de_pogramacion.dir
 
+build CMakeFiles/Ejercicios_de_pogramacion.dir/NACIMIENTO.cpp.obj: CXX_COMPILER__Ejercicios_de_pogramacion_unscanned_Debug C$:/Users/mrtom/CLionProjects/Ejercicios$ de$ pogramacion/NACIMIENTO.cpp || cmake_object_order_depends_target_Ejercicios_de_pogramacion
+  DEP_FILE = CMakeFiles\Ejercicios_de_pogramacion.dir\NACIMIENTO.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Ejercicios_de_pogramacion.dir
+  OBJECT_FILE_DIR = CMakeFiles\Ejercicios_de_pogramacion.dir
+
+build CMakeFiles/Ejercicios_de_pogramacion.dir/MULTIPLOS.cpp.obj: CXX_COMPILER__Ejercicios_de_pogramacion_unscanned_Debug C$:/Users/mrtom/CLionProjects/Ejercicios$ de$ pogramacion/MULTIPLOS.cpp || cmake_object_order_depends_target_Ejercicios_de_pogramacion
+  DEP_FILE = CMakeFiles\Ejercicios_de_pogramacion.dir\MULTIPLOS.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Ejercicios_de_pogramacion.dir
+  OBJECT_FILE_DIR = CMakeFiles\Ejercicios_de_pogramacion.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target Ejercicios_de_pogramacion
@@ -93,7 +105,7 @@ build CMakeFiles/Ejercicios_de_pogramacion.dir/PRIMO.cpp.obj: CXX_COMPILER__Ejer
 #############################################
 # Link the executable Ejercicios_de_pogramacion.exe
 
-build Ejercicios_de_pogramacion.exe: CXX_EXECUTABLE_LINKER__Ejercicios_de_pogramacion_Debug CMakeFiles/Ejercicios_de_pogramacion.dir/main.cpp.obj CMakeFiles/Ejercicios_de_pogramacion.dir/Ejercicio2.cpp.obj CMakeFiles/Ejercicios_de_pogramacion.dir/NumeroMayor.cpp.obj CMakeFiles/Ejercicios_de_pogramacion.dir/YEAR.cpp.obj CMakeFiles/Ejercicios_de_pogramacion.dir/VOCAL.cpp.obj CMakeFiles/Ejercicios_de_pogramacion.dir/PRIMO.cpp.obj
+build Ejercicios_de_pogramacion.exe: CXX_EXECUTABLE_LINKER__Ejercicios_de_pogramacion_Debug CMakeFiles/Ejercicios_de_pogramacion.dir/main.cpp.obj CMakeFiles/Ejercicios_de_pogramacion.dir/Ejercicio2.cpp.obj CMakeFiles/Ejercicios_de_pogramacion.dir/NumeroMayor.cpp.obj CMakeFiles/Ejercicios_de_pogramacion.dir/YEAR.cpp.obj CMakeFiles/Ejercicios_de_pogramacion.dir/VOCAL.cpp.obj CMakeFiles/Ejercicios_de_pogramacion.dir/PRIMO.cpp.obj CMakeFiles/Ejercicios_de_pogramacion.dir/NACIMIENTO.cpp.obj CMakeFiles/Ejercicios_de_pogramacion.dir/MULTIPLOS.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\Ejercicios_de_pogramacion.dir
@@ -301,6 +313,39 @@ build PRIMO.exe: CXX_EXECUTABLE_LINKER__PRIMO_Debug CMakeFiles/PRIMO.dir/PRIMO.c
   TARGET_IMPLIB = libPRIMO.dll.a
   TARGET_PDB = PRIMO.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target NACIMIENTO
+
+
+#############################################
+# Order-only phony target for NACIMIENTO
+
+build cmake_object_order_depends_target_NACIMIENTO: phony || .
+
+build CMakeFiles/NACIMIENTO.dir/NACIMIENTO.cpp.obj: CXX_COMPILER__NACIMIENTO_unscanned_Debug C$:/Users/mrtom/CLionProjects/Ejercicios$ de$ pogramacion/NACIMIENTO.cpp || cmake_object_order_depends_target_NACIMIENTO
+  DEP_FILE = CMakeFiles\NACIMIENTO.dir\NACIMIENTO.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\NACIMIENTO.dir
+  OBJECT_FILE_DIR = CMakeFiles\NACIMIENTO.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target NACIMIENTO
+
+
+#############################################
+# Link the executable NACIMIENTO.exe
+
+build NACIMIENTO.exe: CXX_EXECUTABLE_LINKER__NACIMIENTO_Debug CMakeFiles/NACIMIENTO.dir/NACIMIENTO.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\NACIMIENTO.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = NACIMIENTO.exe
+  TARGET_IMPLIB = libNACIMIENTO.dll.a
+  TARGET_PDB = NACIMIENTO.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -331,6 +376,8 @@ build Ejercicio2: phony Ejercicio2.exe
 
 build Ejercicios_de_pogramacion: phony Ejercicios_de_pogramacion.exe
 
+build NACIMIENTO: phony NACIMIENTO.exe
+
 build NumeroMayor: phony NumeroMayor.exe
 
 build PRIMO: phony PRIMO.exe
@@ -349,7 +396,7 @@ build main.cpp: phony main.cpp.exe
 #############################################
 # Folder: C:/Users/mrtom/CLionProjects/Ejercicios de pogramacion/cmake-build-debug
 
-build all: phony Ejercicios_de_pogramacion.exe Ejercicio2.exe main.cpp.exe NumeroMayor.exe YEAR.exe VOCAL.exe PRIMO.exe
+build all: phony Ejercicios_de_pogramacion.exe Ejercicio2.exe main.cpp.exe NumeroMayor.exe YEAR.exe VOCAL.exe PRIMO.exe NACIMIENTO.exe
 
 # =============================================================================
 # Built-in targets

@@ -21,7 +21,8 @@
 						3,
 						4,
 						5,
-						6
+						6,
+						7
 					]
 				}
 			],
@@ -42,7 +43,8 @@
 						3,
 						4,
 						5,
-						6
+						6,
+						7
 					]
 				}
 			],
@@ -51,49 +53,56 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "Ejercicio2::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-Ejercicio2-Debug-fa3c38214029161f3b88.json",
+					"jsonFile" : "target-Ejercicio2-Debug-7ff2e3025b0a3d989a72.json",
 					"name" : "Ejercicio2",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "Ejercicios_de_pogramacion::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-Ejercicios_de_pogramacion-Debug-33ac595b6b992d60e51b.json",
+					"jsonFile" : "target-Ejercicios_de_pogramacion-Debug-94fa3fc51f3034b59258.json",
 					"name" : "Ejercicios_de_pogramacion",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
+					"id" : "NACIMIENTO::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-NACIMIENTO-Debug-d9672284644a111abf4b.json",
+					"name" : "NACIMIENTO",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
 					"id" : "NumeroMayor::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-NumeroMayor-Debug-bbe4b7be9721992017d6.json",
+					"jsonFile" : "target-NumeroMayor-Debug-2cce3c619d3dca20514d.json",
 					"name" : "NumeroMayor",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "PRIMO::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-PRIMO-Debug-042304836751845483f7.json",
+					"jsonFile" : "target-PRIMO-Debug-72472aa1203399c33d5c.json",
 					"name" : "PRIMO",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "VOCAL::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-VOCAL-Debug-151f95f8fbcfc087266e.json",
+					"jsonFile" : "target-VOCAL-Debug-be89b521508bd15332b5.json",
 					"name" : "VOCAL",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "YEAR::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-YEAR-Debug-a4d3e0465913081829ba.json",
+					"jsonFile" : "target-YEAR-Debug-d9b188f5dfd8b275dfb7.json",
 					"name" : "YEAR",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "main.cpp::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-main.cpp-Debug-e20ba053351b8098b86a.json",
+					"jsonFile" : "target-main.cpp-Debug-d1a40cc492dbdd87cf97.json",
 					"name" : "main.cpp",
 					"projectIndex" : 0
 				}

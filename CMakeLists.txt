@@ -9,6 +9,8 @@ add_executable(Ejercicios_de_pogramacion main.cpp
         YEAR.cpp
         VOCAL.cpp
         PRIMO.cpp
+        NACIMIENTO.cpp
+        MULTIPLOS.cpp
 )
 add_executable(Ejercicio2 Ejercicio2.cpp)
 add_executable(main.cpp main.cpp)
@@ -16,4 +18,5 @@ add_executable(NumeroMayor NumeroMayor.cpp)
 add_executable(YEAR YEAR.cpp)
 add_executable(VOCAL VOCAL.cpp)
 add_executable(PRIMO PRIMO.cpp)
+add_executable(NACIMIENTO NACIMIENTO.cpp)
 
