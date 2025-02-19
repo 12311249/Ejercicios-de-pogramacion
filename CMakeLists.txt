@@ -12,6 +12,7 @@ add_executable(Ejercicios_de_pogramacion main.cpp
         NACIMIENTO.cpp
         MULTIPLOS.cpp
         NOTAS.cpp
+        PRECIOS.cpp
 )
 add_executable(Ejercicio2 Ejercicio2.cpp)
 add_executable(main.cpp main.cpp)
@@ -22,4 +23,5 @@ add_executable(PRIMO PRIMO.cpp)
 add_executable(NACIMIENTO NACIMIENTO.cpp)
 add_executable(MULTIPLOS MULTIPLOS.cpp)
 add_executable(NOTAS NOTAS.cpp)
+add_executable(PRECIOS PRECIOS.cpp)
 

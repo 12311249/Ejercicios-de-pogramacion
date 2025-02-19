@@ -103,6 +103,12 @@ build CMakeFiles/Ejercicios_de_pogramacion.dir/NOTAS.cpp.obj: CXX_COMPILER__Ejer
   OBJECT_DIR = CMakeFiles\Ejercicios_de_pogramacion.dir
   OBJECT_FILE_DIR = CMakeFiles\Ejercicios_de_pogramacion.dir
 
+build CMakeFiles/Ejercicios_de_pogramacion.dir/PRECIOS.cpp.obj: CXX_COMPILER__Ejercicios_de_pogramacion_unscanned_Debug C$:/Users/mrtom/CLionProjects/Ejercicios$ de$ pogramacion/PRECIOS.cpp || cmake_object_order_depends_target_Ejercicios_de_pogramacion
+  DEP_FILE = CMakeFiles\Ejercicios_de_pogramacion.dir\PRECIOS.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Ejercicios_de_pogramacion.dir
+  OBJECT_FILE_DIR = CMakeFiles\Ejercicios_de_pogramacion.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target Ejercicios_de_pogramacion
@@ -111,7 +117,7 @@ build CMakeFiles/Ejercicios_de_pogramacion.dir/NOTAS.cpp.obj: CXX_COMPILER__Ejer
 #############################################
 # Link the executable Ejercicios_de_pogramacion.exe
 
-build Ejercicios_de_pogramacion.exe: CXX_EXECUTABLE_LINKER__Ejercicios_de_pogramacion_Debug CMakeFiles/Ejercicios_de_pogramacion.dir/main.cpp.obj CMakeFiles/Ejercicios_de_pogramacion.dir/Ejercicio2.cpp.obj CMakeFiles/Ejercicios_de_pogramacion.dir/NumeroMayor.cpp.obj CMakeFiles/Ejercicios_de_pogramacion.dir/YEAR.cpp.obj CMakeFiles/Ejercicios_de_pogramacion.dir/VOCAL.cpp.obj CMakeFiles/Ejercicios_de_pogramacion.dir/PRIMO.cpp.obj CMakeFiles/Ejercicios_de_pogramacion.dir/NACIMIENTO.cpp.obj CMakeFiles/Ejercicios_de_pogramacion.dir/MULTIPLOS.cpp.obj CMakeFiles/Ejercicios_de_pogramacion.dir/NOTAS.cpp.obj
+build Ejercicios_de_pogramacion.exe: CXX_EXECUTABLE_LINKER__Ejercicios_de_pogramacion_Debug CMakeFiles/Ejercicios_de_pogramacion.dir/main.cpp.obj CMakeFiles/Ejercicios_de_pogramacion.dir/Ejercicio2.cpp.obj CMakeFiles/Ejercicios_de_pogramacion.dir/NumeroMayor.cpp.obj CMakeFiles/Ejercicios_de_pogramacion.dir/YEAR.cpp.obj CMakeFiles/Ejercicios_de_pogramacion.dir/VOCAL.cpp.obj CMakeFiles/Ejercicios_de_pogramacion.dir/PRIMO.cpp.obj CMakeFiles/Ejercicios_de_pogramacion.dir/NACIMIENTO.cpp.obj CMakeFiles/Ejercicios_de_pogramacion.dir/MULTIPLOS.cpp.obj CMakeFiles/Ejercicios_de_pogramacion.dir/NOTAS.cpp.obj CMakeFiles/Ejercicios_de_pogramacion.dir/PRECIOS.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\Ejercicios_de_pogramacion.dir
@@ -418,6 +424,39 @@ build NOTAS.exe: CXX_EXECUTABLE_LINKER__NOTAS_Debug CMakeFiles/NOTAS.dir/NOTAS.c
   TARGET_IMPLIB = libNOTAS.dll.a
   TARGET_PDB = NOTAS.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target PRECIOS
+
+
+#############################################
+# Order-only phony target for PRECIOS
+
+build cmake_object_order_depends_target_PRECIOS: phony || .
+
+build CMakeFiles/PRECIOS.dir/PRECIOS.cpp.obj: CXX_COMPILER__PRECIOS_unscanned_Debug C$:/Users/mrtom/CLionProjects/Ejercicios$ de$ pogramacion/PRECIOS.cpp || cmake_object_order_depends_target_PRECIOS
+  DEP_FILE = CMakeFiles\PRECIOS.dir\PRECIOS.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\PRECIOS.dir
+  OBJECT_FILE_DIR = CMakeFiles\PRECIOS.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target PRECIOS
+
+
+#############################################
+# Link the executable PRECIOS.exe
+
+build PRECIOS.exe: CXX_EXECUTABLE_LINKER__PRECIOS_Debug CMakeFiles/PRECIOS.dir/PRECIOS.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\PRECIOS.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = PRECIOS.exe
+  TARGET_IMPLIB = libPRECIOS.dll.a
+  TARGET_PDB = PRECIOS.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -456,6 +495,8 @@ build NOTAS: phony NOTAS.exe
 
 build NumeroMayor: phony NumeroMayor.exe
 
+build PRECIOS: phony PRECIOS.exe
+
 build PRIMO: phony PRIMO.exe
 
 build VOCAL: phony VOCAL.exe
@@ -472,7 +513,7 @@ build main.cpp: phony main.cpp.exe
 #############################################
 # Folder: C:/Users/mrtom/CLionProjects/Ejercicios de pogramacion/cmake-build-debug
 
-build all: phony Ejercicios_de_pogramacion.exe Ejercicio2.exe main.cpp.exe NumeroMayor.exe YEAR.exe VOCAL.exe PRIMO.exe NACIMIENTO.exe MULTIPLOS.exe NOTAS.exe
+build all: phony Ejercicios_de_pogramacion.exe Ejercicio2.exe main.cpp.exe NumeroMayor.exe YEAR.exe VOCAL.exe PRIMO.exe NACIMIENTO.exe MULTIPLOS.exe NOTAS.exe PRECIOS.exe
 
 # =============================================================================
 # Built-in targets
