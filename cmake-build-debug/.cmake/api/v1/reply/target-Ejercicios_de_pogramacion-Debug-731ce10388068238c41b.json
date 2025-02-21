@@ -133,13 +133,6 @@
 				20,
 				21
 			]
-		},
-		{
-			"name" : "Header Files",
-			"sourceIndexes" : 
-			[
-				22
-			]
 		}
 	],
 	"sources" : 
@@ -275,11 +268,6 @@
 			"compileGroupIndex" : 0,
 			"path" : "TABLASDEL10.cpp",
 			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 1,
-			"path" : "TABLASDEL10.h",
-			"sourceGroupIndex" : 1
 		}
 	],
 	"type" : "EXECUTABLE"
