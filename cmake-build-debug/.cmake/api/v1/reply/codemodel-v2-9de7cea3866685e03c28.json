@@ -33,7 +33,8 @@
 						15,
 						16,
 						17,
-						18
+						18,
+						19
 					]
 				}
 			],
@@ -66,7 +67,8 @@
 						15,
 						16,
 						17,
-						18
+						18,
+						19
 					]
 				}
 			],
@@ -75,133 +77,140 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "CIEN::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-CIEN-Debug-cefcadab9990e84f1eb1.json",
+					"jsonFile" : "target-CIEN-Debug-68a86f64dc25f84a8614.json",
 					"name" : "CIEN",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "Ejercicio2::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-Ejercicio2-Debug-fcb00523d5ad29c2fb90.json",
+					"jsonFile" : "target-Ejercicio2-Debug-d4b82a16408f2fd55441.json",
 					"name" : "Ejercicio2",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "Ejercicios_de_pogramacion::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-Ejercicios_de_pogramacion-Debug-2db2b8e5714f6ce184de.json",
+					"jsonFile" : "target-Ejercicios_de_pogramacion-Debug-4772258f5c9bb6cba655.json",
 					"name" : "Ejercicios_de_pogramacion",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "FINOBACCI::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-FINOBACCI-Debug-0cfcdee32e226390aeb5.json",
+					"jsonFile" : "target-FINOBACCI-Debug-3f58bc24301560eedc7d.json",
 					"name" : "FINOBACCI",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "MEDIA::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-MEDIA-Debug-5a035417f9e32bedaa7d.json",
+					"jsonFile" : "target-MEDIA-Debug-1d538d19b2defe3f6342.json",
 					"name" : "MEDIA",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "MULTIPLOS::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-MULTIPLOS-Debug-973dbf8951f86c9e9d51.json",
+					"jsonFile" : "target-MULTIPLOS-Debug-dda751340227c5deac0c.json",
 					"name" : "MULTIPLOS",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "NACIMIENTO::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-NACIMIENTO-Debug-5dac508dec77f4d58c49.json",
+					"jsonFile" : "target-NACIMIENTO-Debug-6d64cd0d947a4ff26c08.json",
 					"name" : "NACIMIENTO",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
+					"id" : "NATURALES::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-NATURALES-Debug-d4f1f9709735684e8928.json",
+					"name" : "NATURALES",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
 					"id" : "NOTAS::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-NOTAS-Debug-0fc1629b4803d715e4b1.json",
+					"jsonFile" : "target-NOTAS-Debug-47950ee791680b2c33e4.json",
 					"name" : "NOTAS",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "NumeroMayor::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-NumeroMayor-Debug-14e51fa4bfaeb5355b8f.json",
+					"jsonFile" : "target-NumeroMayor-Debug-cc79b3c1401a1f2720c3.json",
 					"name" : "NumeroMayor",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "ORDEN::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-ORDEN-Debug-15f59d0984bc275fc2a7.json",
+					"jsonFile" : "target-ORDEN-Debug-d25e89f87e113d21035d.json",
 					"name" : "ORDEN",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "PARES::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-PARES-Debug-b91db4552821d4671666.json",
+					"jsonFile" : "target-PARES-Debug-785a3d1a52d5ea8c93a9.json",
 					"name" : "PARES",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "PRECIOS::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-PRECIOS-Debug-c3f6c271ceb5025286b7.json",
+					"jsonFile" : "target-PRECIOS-Debug-b3916e39867be945a5f2.json",
 					"name" : "PRECIOS",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "PRIMO::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-PRIMO-Debug-63c1b887a155fd5ee2e4.json",
+					"jsonFile" : "target-PRIMO-Debug-4e65e909c4c74b8c2afc.json",
 					"name" : "PRIMO",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "VOCAL::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-VOCAL-Debug-ca6485921e9fd0caf224.json",
+					"jsonFile" : "target-VOCAL-Debug-a228dcd3ba817100f0e8.json",
 					"name" : "VOCAL",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "WHILE3::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-WHILE3-Debug-6a608b685b0a15ad0a9c.json",
+					"jsonFile" : "target-WHILE3-Debug-c6e3280832a26eac0da4.json",
 					"name" : "WHILE3",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "While2::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-While2-Debug-4b7c273deaff7b69e90e.json",
+					"jsonFile" : "target-While2-Debug-063888aa2985c0289ea3.json",
 					"name" : "While2",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "YEAR::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-YEAR-Debug-30c5fb957bd205f4c44b.json",
+					"jsonFile" : "target-YEAR-Debug-1f8b3d9be6f798c45b99.json",
 					"name" : "YEAR",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "ZERO::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-ZERO-Debug-77149dae5edbd0622069.json",
+					"jsonFile" : "target-ZERO-Debug-17d7c2c681ae23de186f.json",
 					"name" : "ZERO",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "main.cpp::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-main.cpp-Debug-96c740c9ba4915bd2644.json",
+					"jsonFile" : "target-main.cpp-Debug-f8b1d71781b2473f8d27.json",
 					"name" : "main.cpp",
 					"projectIndex" : 0
 				}

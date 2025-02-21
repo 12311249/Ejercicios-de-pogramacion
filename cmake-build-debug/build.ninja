@@ -157,6 +157,12 @@ build CMakeFiles/Ejercicios_de_pogramacion.dir/ZERO.cpp.obj: CXX_COMPILER__Ejerc
   OBJECT_DIR = CMakeFiles\Ejercicios_de_pogramacion.dir
   OBJECT_FILE_DIR = CMakeFiles\Ejercicios_de_pogramacion.dir
 
+build CMakeFiles/Ejercicios_de_pogramacion.dir/NATURALES.cpp.obj: CXX_COMPILER__Ejercicios_de_pogramacion_unscanned_Debug C$:/Users/mrtom/CLionProjects/Ejercicios$ de$ pogramacion/NATURALES.cpp || cmake_object_order_depends_target_Ejercicios_de_pogramacion
+  DEP_FILE = CMakeFiles\Ejercicios_de_pogramacion.dir\NATURALES.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Ejercicios_de_pogramacion.dir
+  OBJECT_FILE_DIR = CMakeFiles\Ejercicios_de_pogramacion.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target Ejercicios_de_pogramacion
@@ -165,7 +171,7 @@ build CMakeFiles/Ejercicios_de_pogramacion.dir/ZERO.cpp.obj: CXX_COMPILER__Ejerc
 #############################################
 # Link the executable Ejercicios_de_pogramacion.exe
 
-build Ejercicios_de_pogramacion.exe: CXX_EXECUTABLE_LINKER__Ejercicios_de_pogramacion_Debug CMakeFiles/Ejercicios_de_pogramacion.dir/main.cpp.obj CMakeFiles/Ejercicios_de_pogramacion.dir/Ejercicio2.cpp.obj CMakeFiles/Ejercicios_de_pogramacion.dir/NumeroMayor.cpp.obj CMakeFiles/Ejercicios_de_pogramacion.dir/YEAR.cpp.obj CMakeFiles/Ejercicios_de_pogramacion.dir/VOCAL.cpp.obj CMakeFiles/Ejercicios_de_pogramacion.dir/PRIMO.cpp.obj CMakeFiles/Ejercicios_de_pogramacion.dir/NACIMIENTO.cpp.obj CMakeFiles/Ejercicios_de_pogramacion.dir/MULTIPLOS.cpp.obj CMakeFiles/Ejercicios_de_pogramacion.dir/NOTAS.cpp.obj CMakeFiles/Ejercicios_de_pogramacion.dir/PRECIOS.cpp.obj CMakeFiles/Ejercicios_de_pogramacion.dir/ORDEN.cpp.obj CMakeFiles/Ejercicios_de_pogramacion.dir/While2.cpp.obj CMakeFiles/Ejercicios_de_pogramacion.dir/WHILE3.cpp.obj CMakeFiles/Ejercicios_de_pogramacion.dir/FINOBACCI.cpp.obj CMakeFiles/Ejercicios_de_pogramacion.dir/CIEN.cpp.obj CMakeFiles/Ejercicios_de_pogramacion.dir/PARES.cpp.obj CMakeFiles/Ejercicios_de_pogramacion.dir/MEDIA.cpp.obj CMakeFiles/Ejercicios_de_pogramacion.dir/ZERO.cpp.obj
+build Ejercicios_de_pogramacion.exe: CXX_EXECUTABLE_LINKER__Ejercicios_de_pogramacion_Debug CMakeFiles/Ejercicios_de_pogramacion.dir/main.cpp.obj CMakeFiles/Ejercicios_de_pogramacion.dir/Ejercicio2.cpp.obj CMakeFiles/Ejercicios_de_pogramacion.dir/NumeroMayor.cpp.obj CMakeFiles/Ejercicios_de_pogramacion.dir/YEAR.cpp.obj CMakeFiles/Ejercicios_de_pogramacion.dir/VOCAL.cpp.obj CMakeFiles/Ejercicios_de_pogramacion.dir/PRIMO.cpp.obj CMakeFiles/Ejercicios_de_pogramacion.dir/NACIMIENTO.cpp.obj CMakeFiles/Ejercicios_de_pogramacion.dir/MULTIPLOS.cpp.obj CMakeFiles/Ejercicios_de_pogramacion.dir/NOTAS.cpp.obj CMakeFiles/Ejercicios_de_pogramacion.dir/PRECIOS.cpp.obj CMakeFiles/Ejercicios_de_pogramacion.dir/ORDEN.cpp.obj CMakeFiles/Ejercicios_de_pogramacion.dir/While2.cpp.obj CMakeFiles/Ejercicios_de_pogramacion.dir/WHILE3.cpp.obj CMakeFiles/Ejercicios_de_pogramacion.dir/FINOBACCI.cpp.obj CMakeFiles/Ejercicios_de_pogramacion.dir/CIEN.cpp.obj CMakeFiles/Ejercicios_de_pogramacion.dir/PARES.cpp.obj CMakeFiles/Ejercicios_de_pogramacion.dir/MEDIA.cpp.obj CMakeFiles/Ejercicios_de_pogramacion.dir/ZERO.cpp.obj CMakeFiles/Ejercicios_de_pogramacion.dir/NATURALES.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\Ejercicios_de_pogramacion.dir
@@ -769,6 +775,39 @@ build ZERO.exe: CXX_EXECUTABLE_LINKER__ZERO_Debug CMakeFiles/ZERO.dir/ZERO.cpp.o
   TARGET_IMPLIB = libZERO.dll.a
   TARGET_PDB = ZERO.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target NATURALES
+
+
+#############################################
+# Order-only phony target for NATURALES
+
+build cmake_object_order_depends_target_NATURALES: phony || .
+
+build CMakeFiles/NATURALES.dir/NATURALES.cpp.obj: CXX_COMPILER__NATURALES_unscanned_Debug C$:/Users/mrtom/CLionProjects/Ejercicios$ de$ pogramacion/NATURALES.cpp || cmake_object_order_depends_target_NATURALES
+  DEP_FILE = CMakeFiles\NATURALES.dir\NATURALES.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\NATURALES.dir
+  OBJECT_FILE_DIR = CMakeFiles\NATURALES.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target NATURALES
+
+
+#############################################
+# Link the executable NATURALES.exe
+
+build NATURALES.exe: CXX_EXECUTABLE_LINKER__NATURALES_Debug CMakeFiles/NATURALES.dir/NATURALES.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\NATURALES.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = NATURALES.exe
+  TARGET_IMPLIB = libNATURALES.dll.a
+  TARGET_PDB = NATURALES.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -809,6 +848,8 @@ build MULTIPLOS: phony MULTIPLOS.exe
 
 build NACIMIENTO: phony NACIMIENTO.exe
 
+build NATURALES: phony NATURALES.exe
+
 build NOTAS: phony NOTAS.exe
 
 build NumeroMayor: phony NumeroMayor.exe
@@ -841,7 +882,7 @@ build main.cpp: phony main.cpp.exe
 #############################################
 # Folder: C:/Users/mrtom/CLionProjects/Ejercicios de pogramacion/cmake-build-debug
 
-build all: phony Ejercicios_de_pogramacion.exe Ejercicio2.exe main.cpp.exe NumeroMayor.exe YEAR.exe VOCAL.exe PRIMO.exe NACIMIENTO.exe MULTIPLOS.exe NOTAS.exe PRECIOS.exe ORDEN.exe While2.exe WHILE3.exe FINOBACCI.exe CIEN.exe PARES.exe MEDIA.exe ZERO.exe
+build all: phony Ejercicios_de_pogramacion.exe Ejercicio2.exe main.cpp.exe NumeroMayor.exe YEAR.exe VOCAL.exe PRIMO.exe NACIMIENTO.exe MULTIPLOS.exe NOTAS.exe PRECIOS.exe ORDEN.exe While2.exe WHILE3.exe FINOBACCI.exe CIEN.exe PARES.exe MEDIA.exe ZERO.exe NATURALES.exe
 
 # =============================================================================
 # Built-in targets

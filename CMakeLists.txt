@@ -21,6 +21,7 @@ add_executable(Ejercicios_de_pogramacion main.cpp
         PARES.cpp
         MEDIA.cpp
         ZERO.cpp
+        NATURALES.cpp
 )
 add_executable(Ejercicio2 Ejercicio2.cpp)
 add_executable(main.cpp main.cpp)
@@ -40,3 +41,4 @@ add_executable(CIEN CIEN.cpp)
 add_executable(PARES PARES.cpp)
 add_executable(MEDIA MEDIA.cpp)
 add_executable(ZERO ZERO.cpp)
+add_executable(NATURALES NATURALES.cpp)
