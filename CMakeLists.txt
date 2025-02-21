@@ -28,6 +28,7 @@ add_executable(Ejercicios_de_pogramacion main.cpp
         FOR3.cpp
         FACTORIAL.cpp
         FOR5.cpp
+        FOR6.cpp
 )
 add_executable(Ejercicio2 Ejercicio2.cpp)
 add_executable(main.cpp main.cpp)
@@ -54,3 +55,4 @@ add_executable(TABLASDEL10 TABLASDEL10.cpp)
 add_executable(FOR3 FOR3.cpp)
 add_executable(FACTORIAL FACTORIAL.cpp)
 add_executable(FOR5 FOR5.cpp)
+add_executable(FOR6 FOR6.cpp)
