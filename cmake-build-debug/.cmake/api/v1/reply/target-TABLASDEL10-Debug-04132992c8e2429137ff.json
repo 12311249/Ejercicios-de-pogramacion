@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "YEAR.exe"
+			"path" : "TABLASDEL10.exe"
 		},
 		{
-			"path" : "YEAR.pdb"
+			"path" : "TABLASDEL10.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -27,7 +27,7 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 36,
+				"line" : 55,
 				"parent" : 0
 			}
 		]
@@ -56,7 +56,7 @@
 			]
 		}
 	],
-	"id" : "YEAR::@6890427a1f51a3e7e1df",
+	"id" : "TABLASDEL10::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -76,8 +76,8 @@
 		],
 		"language" : "CXX"
 	},
-	"name" : "YEAR",
-	"nameOnDisk" : "YEAR.exe",
+	"name" : "TABLASDEL10",
+	"nameOnDisk" : "TABLASDEL10.exe",
 	"paths" : 
 	{
 		"build" : ".",
@@ -98,7 +98,7 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "YEAR.cpp",
+			"path" : "TABLASDEL10.cpp",
 			"sourceGroupIndex" : 0
 		}
 	],
