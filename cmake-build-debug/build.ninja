@@ -151,6 +151,12 @@ build CMakeFiles/Ejercicios_de_pogramacion.dir/MEDIA.cpp.obj: CXX_COMPILER__Ejer
   OBJECT_DIR = CMakeFiles\Ejercicios_de_pogramacion.dir
   OBJECT_FILE_DIR = CMakeFiles\Ejercicios_de_pogramacion.dir
 
+build CMakeFiles/Ejercicios_de_pogramacion.dir/ZERO.cpp.obj: CXX_COMPILER__Ejercicios_de_pogramacion_unscanned_Debug C$:/Users/mrtom/CLionProjects/Ejercicios$ de$ pogramacion/ZERO.cpp || cmake_object_order_depends_target_Ejercicios_de_pogramacion
+  DEP_FILE = CMakeFiles\Ejercicios_de_pogramacion.dir\ZERO.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Ejercicios_de_pogramacion.dir
+  OBJECT_FILE_DIR = CMakeFiles\Ejercicios_de_pogramacion.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target Ejercicios_de_pogramacion
@@ -159,7 +165,7 @@ build CMakeFiles/Ejercicios_de_pogramacion.dir/MEDIA.cpp.obj: CXX_COMPILER__Ejer
 #############################################
 # Link the executable Ejercicios_de_pogramacion.exe
 
-build Ejercicios_de_pogramacion.exe: CXX_EXECUTABLE_LINKER__Ejercicios_de_pogramacion_Debug CMakeFiles/Ejercicios_de_pogramacion.dir/main.cpp.obj CMakeFiles/Ejercicios_de_pogramacion.dir/Ejercicio2.cpp.obj CMakeFiles/Ejercicios_de_pogramacion.dir/NumeroMayor.cpp.obj CMakeFiles/Ejercicios_de_pogramacion.dir/YEAR.cpp.obj CMakeFiles/Ejercicios_de_pogramacion.dir/VOCAL.cpp.obj CMakeFiles/Ejercicios_de_pogramacion.dir/PRIMO.cpp.obj CMakeFiles/Ejercicios_de_pogramacion.dir/NACIMIENTO.cpp.obj CMakeFiles/Ejercicios_de_pogramacion.dir/MULTIPLOS.cpp.obj CMakeFiles/Ejercicios_de_pogramacion.dir/NOTAS.cpp.obj CMakeFiles/Ejercicios_de_pogramacion.dir/PRECIOS.cpp.obj CMakeFiles/Ejercicios_de_pogramacion.dir/ORDEN.cpp.obj CMakeFiles/Ejercicios_de_pogramacion.dir/While2.cpp.obj CMakeFiles/Ejercicios_de_pogramacion.dir/WHILE3.cpp.obj CMakeFiles/Ejercicios_de_pogramacion.dir/FINOBACCI.cpp.obj CMakeFiles/Ejercicios_de_pogramacion.dir/CIEN.cpp.obj CMakeFiles/Ejercicios_de_pogramacion.dir/PARES.cpp.obj CMakeFiles/Ejercicios_de_pogramacion.dir/MEDIA.cpp.obj
+build Ejercicios_de_pogramacion.exe: CXX_EXECUTABLE_LINKER__Ejercicios_de_pogramacion_Debug CMakeFiles/Ejercicios_de_pogramacion.dir/main.cpp.obj CMakeFiles/Ejercicios_de_pogramacion.dir/Ejercicio2.cpp.obj CMakeFiles/Ejercicios_de_pogramacion.dir/NumeroMayor.cpp.obj CMakeFiles/Ejercicios_de_pogramacion.dir/YEAR.cpp.obj CMakeFiles/Ejercicios_de_pogramacion.dir/VOCAL.cpp.obj CMakeFiles/Ejercicios_de_pogramacion.dir/PRIMO.cpp.obj CMakeFiles/Ejercicios_de_pogramacion.dir/NACIMIENTO.cpp.obj CMakeFiles/Ejercicios_de_pogramacion.dir/MULTIPLOS.cpp.obj CMakeFiles/Ejercicios_de_pogramacion.dir/NOTAS.cpp.obj CMakeFiles/Ejercicios_de_pogramacion.dir/PRECIOS.cpp.obj CMakeFiles/Ejercicios_de_pogramacion.dir/ORDEN.cpp.obj CMakeFiles/Ejercicios_de_pogramacion.dir/While2.cpp.obj CMakeFiles/Ejercicios_de_pogramacion.dir/WHILE3.cpp.obj CMakeFiles/Ejercicios_de_pogramacion.dir/FINOBACCI.cpp.obj CMakeFiles/Ejercicios_de_pogramacion.dir/CIEN.cpp.obj CMakeFiles/Ejercicios_de_pogramacion.dir/PARES.cpp.obj CMakeFiles/Ejercicios_de_pogramacion.dir/MEDIA.cpp.obj CMakeFiles/Ejercicios_de_pogramacion.dir/ZERO.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\Ejercicios_de_pogramacion.dir
@@ -730,6 +736,39 @@ build MEDIA.exe: CXX_EXECUTABLE_LINKER__MEDIA_Debug CMakeFiles/MEDIA.dir/MEDIA.c
   TARGET_IMPLIB = libMEDIA.dll.a
   TARGET_PDB = MEDIA.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target ZERO
+
+
+#############################################
+# Order-only phony target for ZERO
+
+build cmake_object_order_depends_target_ZERO: phony || .
+
+build CMakeFiles/ZERO.dir/ZERO.cpp.obj: CXX_COMPILER__ZERO_unscanned_Debug C$:/Users/mrtom/CLionProjects/Ejercicios$ de$ pogramacion/ZERO.cpp || cmake_object_order_depends_target_ZERO
+  DEP_FILE = CMakeFiles\ZERO.dir\ZERO.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\ZERO.dir
+  OBJECT_FILE_DIR = CMakeFiles\ZERO.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target ZERO
+
+
+#############################################
+# Link the executable ZERO.exe
+
+build ZERO.exe: CXX_EXECUTABLE_LINKER__ZERO_Debug CMakeFiles/ZERO.dir/ZERO.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\ZERO.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = ZERO.exe
+  TARGET_IMPLIB = libZERO.dll.a
+  TARGET_PDB = ZERO.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -790,6 +829,8 @@ build While2: phony While2.exe
 
 build YEAR: phony YEAR.exe
 
+build ZERO: phony ZERO.exe
+
 build main.cpp: phony main.cpp.exe
 
 # =============================================================================
@@ -800,7 +841,7 @@ build main.cpp: phony main.cpp.exe
 #############################################
 # Folder: C:/Users/mrtom/CLionProjects/Ejercicios de pogramacion/cmake-build-debug
 
-build all: phony Ejercicios_de_pogramacion.exe Ejercicio2.exe main.cpp.exe NumeroMayor.exe YEAR.exe VOCAL.exe PRIMO.exe NACIMIENTO.exe MULTIPLOS.exe NOTAS.exe PRECIOS.exe ORDEN.exe While2.exe WHILE3.exe FINOBACCI.exe CIEN.exe PARES.exe MEDIA.exe
+build all: phony Ejercicios_de_pogramacion.exe Ejercicio2.exe main.cpp.exe NumeroMayor.exe YEAR.exe VOCAL.exe PRIMO.exe NACIMIENTO.exe MULTIPLOS.exe NOTAS.exe PRECIOS.exe ORDEN.exe While2.exe WHILE3.exe FINOBACCI.exe CIEN.exe PARES.exe MEDIA.exe ZERO.exe
 
 # =============================================================================
 # Built-in targets
