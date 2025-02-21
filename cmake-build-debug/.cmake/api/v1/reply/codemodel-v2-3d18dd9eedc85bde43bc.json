@@ -27,7 +27,8 @@
 						9,
 						10,
 						11,
-						12
+						12,
+						13
 					]
 				}
 			],
@@ -54,7 +55,8 @@
 						9,
 						10,
 						11,
-						12
+						12,
+						13
 					]
 				}
 			],
@@ -63,91 +65,98 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "Ejercicio2::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-Ejercicio2-Debug-308e71cf2603109829f0.json",
+					"jsonFile" : "target-Ejercicio2-Debug-766e7bf8d25968f80c6f.json",
 					"name" : "Ejercicio2",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "Ejercicios_de_pogramacion::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-Ejercicios_de_pogramacion-Debug-9e8d68c577b2b1566152.json",
+					"jsonFile" : "target-Ejercicios_de_pogramacion-Debug-75afe80a581d932b0b81.json",
 					"name" : "Ejercicios_de_pogramacion",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "MULTIPLOS::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-MULTIPLOS-Debug-f6313bbaa70d355b9fb7.json",
+					"jsonFile" : "target-MULTIPLOS-Debug-dac10ccaf92077be2b59.json",
 					"name" : "MULTIPLOS",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "NACIMIENTO::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-NACIMIENTO-Debug-adf4a1c7b2f5a2575af9.json",
+					"jsonFile" : "target-NACIMIENTO-Debug-153ab3de1683adc441ae.json",
 					"name" : "NACIMIENTO",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "NOTAS::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-NOTAS-Debug-d27d96490c168bff6b2a.json",
+					"jsonFile" : "target-NOTAS-Debug-43a7eb0cc5d67ce594fa.json",
 					"name" : "NOTAS",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "NumeroMayor::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-NumeroMayor-Debug-ac2036ca315813736ea7.json",
+					"jsonFile" : "target-NumeroMayor-Debug-85a40cb217aec6e25756.json",
 					"name" : "NumeroMayor",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "ORDEN::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-ORDEN-Debug-2cc4f2453080b3ce2823.json",
+					"jsonFile" : "target-ORDEN-Debug-a2c981458564ee443211.json",
 					"name" : "ORDEN",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "PRECIOS::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-PRECIOS-Debug-4b1f0b25c38e744408ce.json",
+					"jsonFile" : "target-PRECIOS-Debug-f16f26f75caaf8306ce9.json",
 					"name" : "PRECIOS",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "PRIMO::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-PRIMO-Debug-c7003fa406bca9943a83.json",
+					"jsonFile" : "target-PRIMO-Debug-4626dd743b199fd2af8c.json",
 					"name" : "PRIMO",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "VOCAL::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-VOCAL-Debug-65e5a97f78a2c33194b9.json",
+					"jsonFile" : "target-VOCAL-Debug-3d871a1cdab01da83db6.json",
 					"name" : "VOCAL",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
+					"id" : "WHILE3::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-WHILE3-Debug-1e262b176363d8981c19.json",
+					"name" : "WHILE3",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
 					"id" : "While2::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-While2-Debug-059e21d9c26a6cbe3dde.json",
+					"jsonFile" : "target-While2-Debug-643e06977b3250dd6775.json",
 					"name" : "While2",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "YEAR::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-YEAR-Debug-3f2558ef6a43402ce58d.json",
+					"jsonFile" : "target-YEAR-Debug-022bb6aeede52d0429be.json",
 					"name" : "YEAR",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "main.cpp::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-main.cpp-Debug-e664347a9cb070275876.json",
+					"jsonFile" : "target-main.cpp-Debug-d80ec33cdfcabca4e03d.json",
 					"name" : "main.cpp",
 					"projectIndex" : 0
 				}
