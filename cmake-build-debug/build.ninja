@@ -163,6 +163,12 @@ build CMakeFiles/Ejercicios_de_pogramacion.dir/NATURALES.cpp.obj: CXX_COMPILER__
   OBJECT_DIR = CMakeFiles\Ejercicios_de_pogramacion.dir
   OBJECT_FILE_DIR = CMakeFiles\Ejercicios_de_pogramacion.dir
 
+build CMakeFiles/Ejercicios_de_pogramacion.dir/CALCULARNATURALES.cpp.obj: CXX_COMPILER__Ejercicios_de_pogramacion_unscanned_Debug C$:/Users/mrtom/CLionProjects/Ejercicios$ de$ pogramacion/CALCULARNATURALES.cpp || cmake_object_order_depends_target_Ejercicios_de_pogramacion
+  DEP_FILE = CMakeFiles\Ejercicios_de_pogramacion.dir\CALCULARNATURALES.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Ejercicios_de_pogramacion.dir
+  OBJECT_FILE_DIR = CMakeFiles\Ejercicios_de_pogramacion.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target Ejercicios_de_pogramacion
@@ -171,7 +177,7 @@ build CMakeFiles/Ejercicios_de_pogramacion.dir/NATURALES.cpp.obj: CXX_COMPILER__
 #############################################
 # Link the executable Ejercicios_de_pogramacion.exe
 
-build Ejercicios_de_pogramacion.exe: CXX_EXECUTABLE_LINKER__Ejercicios_de_pogramacion_Debug CMakeFiles/Ejercicios_de_pogramacion.dir/main.cpp.obj CMakeFiles/Ejercicios_de_pogramacion.dir/Ejercicio2.cpp.obj CMakeFiles/Ejercicios_de_pogramacion.dir/NumeroMayor.cpp.obj CMakeFiles/Ejercicios_de_pogramacion.dir/YEAR.cpp.obj CMakeFiles/Ejercicios_de_pogramacion.dir/VOCAL.cpp.obj CMakeFiles/Ejercicios_de_pogramacion.dir/PRIMO.cpp.obj CMakeFiles/Ejercicios_de_pogramacion.dir/NACIMIENTO.cpp.obj CMakeFiles/Ejercicios_de_pogramacion.dir/MULTIPLOS.cpp.obj CMakeFiles/Ejercicios_de_pogramacion.dir/NOTAS.cpp.obj CMakeFiles/Ejercicios_de_pogramacion.dir/PRECIOS.cpp.obj CMakeFiles/Ejercicios_de_pogramacion.dir/ORDEN.cpp.obj CMakeFiles/Ejercicios_de_pogramacion.dir/While2.cpp.obj CMakeFiles/Ejercicios_de_pogramacion.dir/WHILE3.cpp.obj CMakeFiles/Ejercicios_de_pogramacion.dir/FINOBACCI.cpp.obj CMakeFiles/Ejercicios_de_pogramacion.dir/CIEN.cpp.obj CMakeFiles/Ejercicios_de_pogramacion.dir/PARES.cpp.obj CMakeFiles/Ejercicios_de_pogramacion.dir/MEDIA.cpp.obj CMakeFiles/Ejercicios_de_pogramacion.dir/ZERO.cpp.obj CMakeFiles/Ejercicios_de_pogramacion.dir/NATURALES.cpp.obj
+build Ejercicios_de_pogramacion.exe: CXX_EXECUTABLE_LINKER__Ejercicios_de_pogramacion_Debug CMakeFiles/Ejercicios_de_pogramacion.dir/main.cpp.obj CMakeFiles/Ejercicios_de_pogramacion.dir/Ejercicio2.cpp.obj CMakeFiles/Ejercicios_de_pogramacion.dir/NumeroMayor.cpp.obj CMakeFiles/Ejercicios_de_pogramacion.dir/YEAR.cpp.obj CMakeFiles/Ejercicios_de_pogramacion.dir/VOCAL.cpp.obj CMakeFiles/Ejercicios_de_pogramacion.dir/PRIMO.cpp.obj CMakeFiles/Ejercicios_de_pogramacion.dir/NACIMIENTO.cpp.obj CMakeFiles/Ejercicios_de_pogramacion.dir/MULTIPLOS.cpp.obj CMakeFiles/Ejercicios_de_pogramacion.dir/NOTAS.cpp.obj CMakeFiles/Ejercicios_de_pogramacion.dir/PRECIOS.cpp.obj CMakeFiles/Ejercicios_de_pogramacion.dir/ORDEN.cpp.obj CMakeFiles/Ejercicios_de_pogramacion.dir/While2.cpp.obj CMakeFiles/Ejercicios_de_pogramacion.dir/WHILE3.cpp.obj CMakeFiles/Ejercicios_de_pogramacion.dir/FINOBACCI.cpp.obj CMakeFiles/Ejercicios_de_pogramacion.dir/CIEN.cpp.obj CMakeFiles/Ejercicios_de_pogramacion.dir/PARES.cpp.obj CMakeFiles/Ejercicios_de_pogramacion.dir/MEDIA.cpp.obj CMakeFiles/Ejercicios_de_pogramacion.dir/ZERO.cpp.obj CMakeFiles/Ejercicios_de_pogramacion.dir/NATURALES.cpp.obj CMakeFiles/Ejercicios_de_pogramacion.dir/CALCULARNATURALES.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\Ejercicios_de_pogramacion.dir
@@ -808,6 +814,39 @@ build NATURALES.exe: CXX_EXECUTABLE_LINKER__NATURALES_Debug CMakeFiles/NATURALES
   TARGET_IMPLIB = libNATURALES.dll.a
   TARGET_PDB = NATURALES.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target CALCULARNATURALES
+
+
+#############################################
+# Order-only phony target for CALCULARNATURALES
+
+build cmake_object_order_depends_target_CALCULARNATURALES: phony || .
+
+build CMakeFiles/CALCULARNATURALES.dir/CALCULARNATURALES.cpp.obj: CXX_COMPILER__CALCULARNATURALES_unscanned_Debug C$:/Users/mrtom/CLionProjects/Ejercicios$ de$ pogramacion/CALCULARNATURALES.cpp || cmake_object_order_depends_target_CALCULARNATURALES
+  DEP_FILE = CMakeFiles\CALCULARNATURALES.dir\CALCULARNATURALES.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\CALCULARNATURALES.dir
+  OBJECT_FILE_DIR = CMakeFiles\CALCULARNATURALES.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target CALCULARNATURALES
+
+
+#############################################
+# Link the executable CALCULARNATURALES.exe
+
+build CALCULARNATURALES.exe: CXX_EXECUTABLE_LINKER__CALCULARNATURALES_Debug CMakeFiles/CALCULARNATURALES.dir/CALCULARNATURALES.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\CALCULARNATURALES.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = CALCULARNATURALES.exe
+  TARGET_IMPLIB = libCALCULARNATURALES.dll.a
+  TARGET_PDB = CALCULARNATURALES.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -833,6 +872,8 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 
 # =============================================================================
 # Target aliases.
+
+build CALCULARNATURALES: phony CALCULARNATURALES.exe
 
 build CIEN: phony CIEN.exe
 
@@ -882,7 +923,7 @@ build main.cpp: phony main.cpp.exe
 #############################################
 # Folder: C:/Users/mrtom/CLionProjects/Ejercicios de pogramacion/cmake-build-debug
 
-build all: phony Ejercicios_de_pogramacion.exe Ejercicio2.exe main.cpp.exe NumeroMayor.exe YEAR.exe VOCAL.exe PRIMO.exe NACIMIENTO.exe MULTIPLOS.exe NOTAS.exe PRECIOS.exe ORDEN.exe While2.exe WHILE3.exe FINOBACCI.exe CIEN.exe PARES.exe MEDIA.exe ZERO.exe NATURALES.exe
+build all: phony Ejercicios_de_pogramacion.exe Ejercicio2.exe main.cpp.exe NumeroMayor.exe YEAR.exe VOCAL.exe PRIMO.exe NACIMIENTO.exe MULTIPLOS.exe NOTAS.exe PRECIOS.exe ORDEN.exe While2.exe WHILE3.exe FINOBACCI.exe CIEN.exe PARES.exe MEDIA.exe ZERO.exe NATURALES.exe CALCULARNATURALES.exe
 
 # =============================================================================
 # Built-in targets

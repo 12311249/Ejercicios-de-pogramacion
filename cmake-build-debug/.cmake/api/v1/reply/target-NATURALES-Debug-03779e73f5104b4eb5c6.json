@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "ORDEN.exe"
+			"path" : "NATURALES.exe"
 		},
 		{
-			"path" : "ORDEN.pdb"
+			"path" : "NATURALES.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -27,7 +27,7 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 36,
+				"line" : 45,
 				"parent" : 0
 			}
 		]
@@ -56,7 +56,7 @@
 			]
 		}
 	],
-	"id" : "ORDEN::@6890427a1f51a3e7e1df",
+	"id" : "NATURALES::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -76,8 +76,8 @@
 		],
 		"language" : "CXX"
 	},
-	"name" : "ORDEN",
-	"nameOnDisk" : "ORDEN.exe",
+	"name" : "NATURALES",
+	"nameOnDisk" : "NATURALES.exe",
 	"paths" : 
 	{
 		"build" : ".",
@@ -98,7 +98,7 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "ORDEN.cpp",
+			"path" : "NATURALES.cpp",
 			"sourceGroupIndex" : 0
 		}
 	],
