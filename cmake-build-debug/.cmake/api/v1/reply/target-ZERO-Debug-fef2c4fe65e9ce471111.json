@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "PRECIOS.exe"
+			"path" : "ZERO.exe"
 		},
 		{
-			"path" : "PRECIOS.pdb"
+			"path" : "ZERO.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -27,7 +27,7 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 38,
+				"line" : 47,
 				"parent" : 0
 			}
 		]
@@ -56,7 +56,7 @@
 			]
 		}
 	],
-	"id" : "PRECIOS::@6890427a1f51a3e7e1df",
+	"id" : "ZERO::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -76,8 +76,8 @@
 		],
 		"language" : "CXX"
 	},
-	"name" : "PRECIOS",
-	"nameOnDisk" : "PRECIOS.exe",
+	"name" : "ZERO",
+	"nameOnDisk" : "ZERO.exe",
 	"paths" : 
 	{
 		"build" : ".",
@@ -98,7 +98,7 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "PRECIOS.cpp",
+			"path" : "ZERO.cpp",
 			"sourceGroupIndex" : 0
 		}
 	],

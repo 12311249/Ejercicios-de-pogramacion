@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "MULTIPLOS.exe"
+			"path" : "VOCAL.exe"
 		},
 		{
-			"path" : "MULTIPLOS.pdb"
+			"path" : "VOCAL.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -27,7 +27,7 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 36,
+				"line" : 34,
 				"parent" : 0
 			}
 		]
@@ -56,7 +56,7 @@
 			]
 		}
 	],
-	"id" : "MULTIPLOS::@6890427a1f51a3e7e1df",
+	"id" : "VOCAL::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -76,8 +76,8 @@
 		],
 		"language" : "CXX"
 	},
-	"name" : "MULTIPLOS",
-	"nameOnDisk" : "MULTIPLOS.exe",
+	"name" : "VOCAL",
+	"nameOnDisk" : "VOCAL.exe",
 	"paths" : 
 	{
 		"build" : ".",
@@ -98,7 +98,7 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "MULTIPLOS.cpp",
+			"path" : "VOCAL.cpp",
 			"sourceGroupIndex" : 0
 		}
 	],
