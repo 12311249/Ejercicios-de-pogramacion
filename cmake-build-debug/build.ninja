@@ -193,6 +193,12 @@ build CMakeFiles/Ejercicios_de_pogramacion.dir/FACTORIAL.cpp.obj: CXX_COMPILER__
   OBJECT_DIR = CMakeFiles\Ejercicios_de_pogramacion.dir
   OBJECT_FILE_DIR = CMakeFiles\Ejercicios_de_pogramacion.dir
 
+build CMakeFiles/Ejercicios_de_pogramacion.dir/FOR5.cpp.obj: CXX_COMPILER__Ejercicios_de_pogramacion_unscanned_Debug C$:/Users/mrtom/CLionProjects/Ejercicios$ de$ pogramacion/FOR5.cpp || cmake_object_order_depends_target_Ejercicios_de_pogramacion
+  DEP_FILE = CMakeFiles\Ejercicios_de_pogramacion.dir\FOR5.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Ejercicios_de_pogramacion.dir
+  OBJECT_FILE_DIR = CMakeFiles\Ejercicios_de_pogramacion.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target Ejercicios_de_pogramacion
@@ -201,7 +207,7 @@ build CMakeFiles/Ejercicios_de_pogramacion.dir/FACTORIAL.cpp.obj: CXX_COMPILER__
 #############################################
 # Link the executable Ejercicios_de_pogramacion.exe
 
-build Ejercicios_de_pogramacion.exe: CXX_EXECUTABLE_LINKER__Ejercicios_de_pogramacion_Debug CMakeFiles/Ejercicios_de_pogramacion.dir/main.cpp.obj CMakeFiles/Ejercicios_de_pogramacion.dir/Ejercicio2.cpp.obj CMakeFiles/Ejercicios_de_pogramacion.dir/NumeroMayor.cpp.obj CMakeFiles/Ejercicios_de_pogramacion.dir/YEAR.cpp.obj CMakeFiles/Ejercicios_de_pogramacion.dir/VOCAL.cpp.obj CMakeFiles/Ejercicios_de_pogramacion.dir/PRIMO.cpp.obj CMakeFiles/Ejercicios_de_pogramacion.dir/NACIMIENTO.cpp.obj CMakeFiles/Ejercicios_de_pogramacion.dir/MULTIPLOS.cpp.obj CMakeFiles/Ejercicios_de_pogramacion.dir/NOTAS.cpp.obj CMakeFiles/Ejercicios_de_pogramacion.dir/PRECIOS.cpp.obj CMakeFiles/Ejercicios_de_pogramacion.dir/ORDEN.cpp.obj CMakeFiles/Ejercicios_de_pogramacion.dir/While2.cpp.obj CMakeFiles/Ejercicios_de_pogramacion.dir/WHILE3.cpp.obj CMakeFiles/Ejercicios_de_pogramacion.dir/FINOBACCI.cpp.obj CMakeFiles/Ejercicios_de_pogramacion.dir/CIEN.cpp.obj CMakeFiles/Ejercicios_de_pogramacion.dir/PARES.cpp.obj CMakeFiles/Ejercicios_de_pogramacion.dir/MEDIA.cpp.obj CMakeFiles/Ejercicios_de_pogramacion.dir/ZERO.cpp.obj CMakeFiles/Ejercicios_de_pogramacion.dir/NATURALES.cpp.obj CMakeFiles/Ejercicios_de_pogramacion.dir/CALCULARNATURALES.cpp.obj CMakeFiles/Ejercicios_de_pogramacion.dir/DOSAL20.cpp.obj CMakeFiles/Ejercicios_de_pogramacion.dir/TABLASDEL10.cpp.obj CMakeFiles/Ejercicios_de_pogramacion.dir/FOR3.cpp.obj CMakeFiles/Ejercicios_de_pogramacion.dir/FACTORIAL.cpp.obj
+build Ejercicios_de_pogramacion.exe: CXX_EXECUTABLE_LINKER__Ejercicios_de_pogramacion_Debug CMakeFiles/Ejercicios_de_pogramacion.dir/main.cpp.obj CMakeFiles/Ejercicios_de_pogramacion.dir/Ejercicio2.cpp.obj CMakeFiles/Ejercicios_de_pogramacion.dir/NumeroMayor.cpp.obj CMakeFiles/Ejercicios_de_pogramacion.dir/YEAR.cpp.obj CMakeFiles/Ejercicios_de_pogramacion.dir/VOCAL.cpp.obj CMakeFiles/Ejercicios_de_pogramacion.dir/PRIMO.cpp.obj CMakeFiles/Ejercicios_de_pogramacion.dir/NACIMIENTO.cpp.obj CMakeFiles/Ejercicios_de_pogramacion.dir/MULTIPLOS.cpp.obj CMakeFiles/Ejercicios_de_pogramacion.dir/NOTAS.cpp.obj CMakeFiles/Ejercicios_de_pogramacion.dir/PRECIOS.cpp.obj CMakeFiles/Ejercicios_de_pogramacion.dir/ORDEN.cpp.obj CMakeFiles/Ejercicios_de_pogramacion.dir/While2.cpp.obj CMakeFiles/Ejercicios_de_pogramacion.dir/WHILE3.cpp.obj CMakeFiles/Ejercicios_de_pogramacion.dir/FINOBACCI.cpp.obj CMakeFiles/Ejercicios_de_pogramacion.dir/CIEN.cpp.obj CMakeFiles/Ejercicios_de_pogramacion.dir/PARES.cpp.obj CMakeFiles/Ejercicios_de_pogramacion.dir/MEDIA.cpp.obj CMakeFiles/Ejercicios_de_pogramacion.dir/ZERO.cpp.obj CMakeFiles/Ejercicios_de_pogramacion.dir/NATURALES.cpp.obj CMakeFiles/Ejercicios_de_pogramacion.dir/CALCULARNATURALES.cpp.obj CMakeFiles/Ejercicios_de_pogramacion.dir/DOSAL20.cpp.obj CMakeFiles/Ejercicios_de_pogramacion.dir/TABLASDEL10.cpp.obj CMakeFiles/Ejercicios_de_pogramacion.dir/FOR3.cpp.obj CMakeFiles/Ejercicios_de_pogramacion.dir/FACTORIAL.cpp.obj CMakeFiles/Ejercicios_de_pogramacion.dir/FOR5.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\Ejercicios_de_pogramacion.dir
@@ -1003,6 +1009,39 @@ build FACTORIAL.exe: CXX_EXECUTABLE_LINKER__FACTORIAL_Debug CMakeFiles/FACTORIAL
   TARGET_IMPLIB = libFACTORIAL.dll.a
   TARGET_PDB = FACTORIAL.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target FOR5
+
+
+#############################################
+# Order-only phony target for FOR5
+
+build cmake_object_order_depends_target_FOR5: phony || .
+
+build CMakeFiles/FOR5.dir/FOR5.cpp.obj: CXX_COMPILER__FOR5_unscanned_Debug C$:/Users/mrtom/CLionProjects/Ejercicios$ de$ pogramacion/FOR5.cpp || cmake_object_order_depends_target_FOR5
+  DEP_FILE = CMakeFiles\FOR5.dir\FOR5.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\FOR5.dir
+  OBJECT_FILE_DIR = CMakeFiles\FOR5.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target FOR5
+
+
+#############################################
+# Link the executable FOR5.exe
+
+build FOR5.exe: CXX_EXECUTABLE_LINKER__FOR5_Debug CMakeFiles/FOR5.dir/FOR5.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\FOR5.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = FOR5.exe
+  TARGET_IMPLIB = libFOR5.dll.a
+  TARGET_PDB = FOR5.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -1044,6 +1083,8 @@ build FACTORIAL: phony FACTORIAL.exe
 build FINOBACCI: phony FINOBACCI.exe
 
 build FOR3: phony FOR3.exe
+
+build FOR5: phony FOR5.exe
 
 build MEDIA: phony MEDIA.exe
 
@@ -1087,7 +1128,7 @@ build main.cpp: phony main.cpp.exe
 #############################################
 # Folder: C:/Users/mrtom/CLionProjects/Ejercicios de pogramacion/cmake-build-debug
 
-build all: phony Ejercicios_de_pogramacion.exe Ejercicio2.exe main.cpp.exe NumeroMayor.exe YEAR.exe VOCAL.exe PRIMO.exe NACIMIENTO.exe MULTIPLOS.exe NOTAS.exe PRECIOS.exe ORDEN.exe While2.exe WHILE3.exe FINOBACCI.exe CIEN.exe PARES.exe MEDIA.exe ZERO.exe NATURALES.exe CALCULARNATURALES.exe DOSAL20.exe TABLASDEL10.exe FOR3.exe FACTORIAL.exe
+build all: phony Ejercicios_de_pogramacion.exe Ejercicio2.exe main.cpp.exe NumeroMayor.exe YEAR.exe VOCAL.exe PRIMO.exe NACIMIENTO.exe MULTIPLOS.exe NOTAS.exe PRECIOS.exe ORDEN.exe While2.exe WHILE3.exe FINOBACCI.exe CIEN.exe PARES.exe MEDIA.exe ZERO.exe NATURALES.exe CALCULARNATURALES.exe DOSAL20.exe TABLASDEL10.exe FOR3.exe FACTORIAL.exe FOR5.exe
 
 # =============================================================================
 # Built-in targets

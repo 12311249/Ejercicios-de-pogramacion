@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "main.cpp.exe"
+			"path" : "ZERO.exe"
 		},
 		{
-			"path" : "main.cpp.pdb"
+			"path" : "ZERO.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -27,7 +27,7 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 32,
+				"line" : 49,
 				"parent" : 0
 			}
 		]
@@ -56,7 +56,7 @@
 			]
 		}
 	],
-	"id" : "main.cpp::@6890427a1f51a3e7e1df",
+	"id" : "ZERO::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -76,8 +76,8 @@
 		],
 		"language" : "CXX"
 	},
-	"name" : "main.cpp",
-	"nameOnDisk" : "main.cpp.exe",
+	"name" : "ZERO",
+	"nameOnDisk" : "ZERO.exe",
 	"paths" : 
 	{
 		"build" : ".",
@@ -98,7 +98,7 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "main.cpp",
+			"path" : "ZERO.cpp",
 			"sourceGroupIndex" : 0
 		}
 	],

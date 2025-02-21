@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "NACIMIENTO.exe"
+			"path" : "PRIMO.exe"
 		},
 		{
-			"path" : "NACIMIENTO.pdb"
+			"path" : "PRIMO.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -56,7 +56,7 @@
 			]
 		}
 	],
-	"id" : "NACIMIENTO::@6890427a1f51a3e7e1df",
+	"id" : "PRIMO::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -76,8 +76,8 @@
 		],
 		"language" : "CXX"
 	},
-	"name" : "NACIMIENTO",
-	"nameOnDisk" : "NACIMIENTO.exe",
+	"name" : "PRIMO",
+	"nameOnDisk" : "PRIMO.exe",
 	"paths" : 
 	{
 		"build" : ".",
@@ -98,7 +98,7 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "NACIMIENTO.cpp",
+			"path" : "PRIMO.cpp",
 			"sourceGroupIndex" : 0
 		}
 	],
