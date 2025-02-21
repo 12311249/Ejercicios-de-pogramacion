@@ -19,6 +19,7 @@ add_executable(Ejercicios_de_pogramacion main.cpp
         FINOBACCI.cpp
         CIEN.cpp
         PARES.cpp
+        MEDIA.cpp
 )
 add_executable(Ejercicio2 Ejercicio2.cpp)
 add_executable(main.cpp main.cpp)
@@ -36,4 +37,4 @@ add_executable(WHILE3 WHILE3.cpp)
 add_executable(FINOBACCI FINOBACCI.cpp)
 add_executable(CIEN CIEN.cpp)
 add_executable(PARES PARES.cpp)
-
+add_executable(MEDIA MEDIA.cpp)

@@ -15,5 +15,6 @@ C:/Users/mrtom/CLionProjects/Ejercicios de pogramacion/cmake-build-debug/CMakeFi
 C:/Users/mrtom/CLionProjects/Ejercicios de pogramacion/cmake-build-debug/CMakeFiles/FINOBACCI.dir
 C:/Users/mrtom/CLionProjects/Ejercicios de pogramacion/cmake-build-debug/CMakeFiles/CIEN.dir
 C:/Users/mrtom/CLionProjects/Ejercicios de pogramacion/cmake-build-debug/CMakeFiles/PARES.dir
+C:/Users/mrtom/CLionProjects/Ejercicios de pogramacion/cmake-build-debug/CMakeFiles/MEDIA.dir
 C:/Users/mrtom/CLionProjects/Ejercicios de pogramacion/cmake-build-debug/CMakeFiles/edit_cache.dir
 C:/Users/mrtom/CLionProjects/Ejercicios de pogramacion/cmake-build-debug/CMakeFiles/rebuild_cache.dir
