@@ -127,6 +127,12 @@ build CMakeFiles/Ejercicios_de_pogramacion.dir/WHILE3.cpp.obj: CXX_COMPILER__Eje
   OBJECT_DIR = CMakeFiles\Ejercicios_de_pogramacion.dir
   OBJECT_FILE_DIR = CMakeFiles\Ejercicios_de_pogramacion.dir
 
+build CMakeFiles/Ejercicios_de_pogramacion.dir/FINOBACCI.cpp.obj: CXX_COMPILER__Ejercicios_de_pogramacion_unscanned_Debug C$:/Users/mrtom/CLionProjects/Ejercicios$ de$ pogramacion/FINOBACCI.cpp || cmake_object_order_depends_target_Ejercicios_de_pogramacion
+  DEP_FILE = CMakeFiles\Ejercicios_de_pogramacion.dir\FINOBACCI.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Ejercicios_de_pogramacion.dir
+  OBJECT_FILE_DIR = CMakeFiles\Ejercicios_de_pogramacion.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target Ejercicios_de_pogramacion
@@ -135,7 +141,7 @@ build CMakeFiles/Ejercicios_de_pogramacion.dir/WHILE3.cpp.obj: CXX_COMPILER__Eje
 #############################################
 # Link the executable Ejercicios_de_pogramacion.exe
 
-build Ejercicios_de_pogramacion.exe: CXX_EXECUTABLE_LINKER__Ejercicios_de_pogramacion_Debug CMakeFiles/Ejercicios_de_pogramacion.dir/main.cpp.obj CMakeFiles/Ejercicios_de_pogramacion.dir/Ejercicio2.cpp.obj CMakeFiles/Ejercicios_de_pogramacion.dir/NumeroMayor.cpp.obj CMakeFiles/Ejercicios_de_pogramacion.dir/YEAR.cpp.obj CMakeFiles/Ejercicios_de_pogramacion.dir/VOCAL.cpp.obj CMakeFiles/Ejercicios_de_pogramacion.dir/PRIMO.cpp.obj CMakeFiles/Ejercicios_de_pogramacion.dir/NACIMIENTO.cpp.obj CMakeFiles/Ejercicios_de_pogramacion.dir/MULTIPLOS.cpp.obj CMakeFiles/Ejercicios_de_pogramacion.dir/NOTAS.cpp.obj CMakeFiles/Ejercicios_de_pogramacion.dir/PRECIOS.cpp.obj CMakeFiles/Ejercicios_de_pogramacion.dir/ORDEN.cpp.obj CMakeFiles/Ejercicios_de_pogramacion.dir/While2.cpp.obj CMakeFiles/Ejercicios_de_pogramacion.dir/WHILE3.cpp.obj
+build Ejercicios_de_pogramacion.exe: CXX_EXECUTABLE_LINKER__Ejercicios_de_pogramacion_Debug CMakeFiles/Ejercicios_de_pogramacion.dir/main.cpp.obj CMakeFiles/Ejercicios_de_pogramacion.dir/Ejercicio2.cpp.obj CMakeFiles/Ejercicios_de_pogramacion.dir/NumeroMayor.cpp.obj CMakeFiles/Ejercicios_de_pogramacion.dir/YEAR.cpp.obj CMakeFiles/Ejercicios_de_pogramacion.dir/VOCAL.cpp.obj CMakeFiles/Ejercicios_de_pogramacion.dir/PRIMO.cpp.obj CMakeFiles/Ejercicios_de_pogramacion.dir/NACIMIENTO.cpp.obj CMakeFiles/Ejercicios_de_pogramacion.dir/MULTIPLOS.cpp.obj CMakeFiles/Ejercicios_de_pogramacion.dir/NOTAS.cpp.obj CMakeFiles/Ejercicios_de_pogramacion.dir/PRECIOS.cpp.obj CMakeFiles/Ejercicios_de_pogramacion.dir/ORDEN.cpp.obj CMakeFiles/Ejercicios_de_pogramacion.dir/While2.cpp.obj CMakeFiles/Ejercicios_de_pogramacion.dir/WHILE3.cpp.obj CMakeFiles/Ejercicios_de_pogramacion.dir/FINOBACCI.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\Ejercicios_de_pogramacion.dir
@@ -574,6 +580,39 @@ build WHILE3.exe: CXX_EXECUTABLE_LINKER__WHILE3_Debug CMakeFiles/WHILE3.dir/WHIL
   TARGET_IMPLIB = libWHILE3.dll.a
   TARGET_PDB = WHILE3.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target FINOBACCI
+
+
+#############################################
+# Order-only phony target for FINOBACCI
+
+build cmake_object_order_depends_target_FINOBACCI: phony || .
+
+build CMakeFiles/FINOBACCI.dir/FINOBACCI.cpp.obj: CXX_COMPILER__FINOBACCI_unscanned_Debug C$:/Users/mrtom/CLionProjects/Ejercicios$ de$ pogramacion/FINOBACCI.cpp || cmake_object_order_depends_target_FINOBACCI
+  DEP_FILE = CMakeFiles\FINOBACCI.dir\FINOBACCI.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\FINOBACCI.dir
+  OBJECT_FILE_DIR = CMakeFiles\FINOBACCI.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target FINOBACCI
+
+
+#############################################
+# Link the executable FINOBACCI.exe
+
+build FINOBACCI.exe: CXX_EXECUTABLE_LINKER__FINOBACCI_Debug CMakeFiles/FINOBACCI.dir/FINOBACCI.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\FINOBACCI.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = FINOBACCI.exe
+  TARGET_IMPLIB = libFINOBACCI.dll.a
+  TARGET_PDB = FINOBACCI.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -603,6 +642,8 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 build Ejercicio2: phony Ejercicio2.exe
 
 build Ejercicios_de_pogramacion: phony Ejercicios_de_pogramacion.exe
+
+build FINOBACCI: phony FINOBACCI.exe
 
 build MULTIPLOS: phony MULTIPLOS.exe
 
@@ -636,7 +677,7 @@ build main.cpp: phony main.cpp.exe
 #############################################
 # Folder: C:/Users/mrtom/CLionProjects/Ejercicios de pogramacion/cmake-build-debug
 
-build all: phony Ejercicios_de_pogramacion.exe Ejercicio2.exe main.cpp.exe NumeroMayor.exe YEAR.exe VOCAL.exe PRIMO.exe NACIMIENTO.exe MULTIPLOS.exe NOTAS.exe PRECIOS.exe ORDEN.exe While2.exe WHILE3.exe
+build all: phony Ejercicios_de_pogramacion.exe Ejercicio2.exe main.cpp.exe NumeroMayor.exe YEAR.exe VOCAL.exe PRIMO.exe NACIMIENTO.exe MULTIPLOS.exe NOTAS.exe PRECIOS.exe ORDEN.exe While2.exe WHILE3.exe FINOBACCI.exe
 
 # =============================================================================
 # Built-in targets
