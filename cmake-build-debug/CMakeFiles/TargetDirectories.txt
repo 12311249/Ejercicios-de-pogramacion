@@ -19,5 +19,6 @@ C:/Users/mrtom/CLionProjects/Ejercicios de pogramacion/cmake-build-debug/CMakeFi
 C:/Users/mrtom/CLionProjects/Ejercicios de pogramacion/cmake-build-debug/CMakeFiles/ZERO.dir
 C:/Users/mrtom/CLionProjects/Ejercicios de pogramacion/cmake-build-debug/CMakeFiles/NATURALES.dir
 C:/Users/mrtom/CLionProjects/Ejercicios de pogramacion/cmake-build-debug/CMakeFiles/CALCULARNATURALES.dir
+C:/Users/mrtom/CLionProjects/Ejercicios de pogramacion/cmake-build-debug/CMakeFiles/DOSAL20.dir
 C:/Users/mrtom/CLionProjects/Ejercicios de pogramacion/cmake-build-debug/CMakeFiles/edit_cache.dir
 C:/Users/mrtom/CLionProjects/Ejercicios de pogramacion/cmake-build-debug/CMakeFiles/rebuild_cache.dir
