@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "While2.exe"
+			"path" : "ZERO.exe"
 		},
 		{
-			"path" : "While2.pdb"
+			"path" : "ZERO.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -27,7 +27,7 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 41,
+				"line" : 48,
 				"parent" : 0
 			}
 		]
@@ -56,7 +56,7 @@
 			]
 		}
 	],
-	"id" : "While2::@6890427a1f51a3e7e1df",
+	"id" : "ZERO::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -76,8 +76,8 @@
 		],
 		"language" : "CXX"
 	},
-	"name" : "While2",
-	"nameOnDisk" : "While2.exe",
+	"name" : "ZERO",
+	"nameOnDisk" : "ZERO.exe",
 	"paths" : 
 	{
 		"build" : ".",
@@ -98,7 +98,7 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "While2.cpp",
+			"path" : "ZERO.cpp",
 			"sourceGroupIndex" : 0
 		}
 	],

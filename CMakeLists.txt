@@ -26,6 +26,7 @@ add_executable(Ejercicios_de_pogramacion main.cpp
         DOSAL20.cpp
         TABLASDEL10.cpp
         FOR3.cpp
+        FACTORIAL.cpp
 )
 add_executable(Ejercicio2 Ejercicio2.cpp)
 add_executable(main.cpp main.cpp)
@@ -50,3 +51,4 @@ add_executable(CALCULARNATURALES CALCULARNATURALES.cpp)
 add_executable(DOSAL20 DOSAL20.cpp)
 add_executable(TABLASDEL10 TABLASDEL10.cpp)
 add_executable(FOR3 FOR3.cpp)
+add_executable(FACTORIAL FACTORIAL.cpp)
