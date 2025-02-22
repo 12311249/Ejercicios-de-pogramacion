@@ -32,6 +32,7 @@ add_executable(Ejercicios_de_pogramacion main.cpp
         FOR7.cpp
         FOR8.cpp
         FOR9.cpp
+        FOR10.cpp
 )
 add_executable(Ejercicio2 Ejercicio2.cpp)
 add_executable(main.cpp main.cpp)
@@ -62,3 +63,4 @@ add_executable(FOR6 FOR6.cpp)
 add_executable(FOR7 FOR7.cpp)
 add_executable(FOR8 FOR8.cpp)
 add_executable(FOR9 FOR9.cpp)
+add_executable(FOR10 FOR10.cpp)

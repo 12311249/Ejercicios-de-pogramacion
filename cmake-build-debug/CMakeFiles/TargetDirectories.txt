@@ -28,5 +28,6 @@ C:/Users/mrtom/CLionProjects/Ejercicios de pogramacion/cmake-build-debug/CMakeFi
 C:/Users/mrtom/CLionProjects/Ejercicios de pogramacion/cmake-build-debug/CMakeFiles/FOR7.dir
 C:/Users/mrtom/CLionProjects/Ejercicios de pogramacion/cmake-build-debug/CMakeFiles/FOR8.dir
 C:/Users/mrtom/CLionProjects/Ejercicios de pogramacion/cmake-build-debug/CMakeFiles/FOR9.dir
+C:/Users/mrtom/CLionProjects/Ejercicios de pogramacion/cmake-build-debug/CMakeFiles/FOR10.dir
 C:/Users/mrtom/CLionProjects/Ejercicios de pogramacion/cmake-build-debug/CMakeFiles/edit_cache.dir
 C:/Users/mrtom/CLionProjects/Ejercicios de pogramacion/cmake-build-debug/CMakeFiles/rebuild_cache.dir
